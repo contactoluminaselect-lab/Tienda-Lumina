@@ -1,25 +1,5 @@
 [
     {
-        "id": "CJTEC4455",
-        "nombre": "Auriculares Bluetooth Lumina Sound",
-        "precio": 65.0,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Cancelaci\u00f3n de ruido activa y 40 horas de bater\u00eda. El sonido del futuro.",
-        "imagen": "https://cc-west-usa.oss-accelerate.aliyuncs.com/20210323/34111325145.jpg",
-        "resenas": [
-            {
-                "usuario": "A. Garc\u00eda",
-                "estrellas": 5,
-                "comentario": "El Auriculares Bluetooth Lumina Sound es justo lo que esperaba. Muy buena calidad."
-            },
-            {
-                "usuario": "M. L\u00f3pez",
-                "estrellas": 5,
-                "comentario": "Lleg\u00f3 antes de tiempo y funciona perfectamente."
-            }
-        ]
-    },
-    {
         "id": "CJHOG7788",
         "nombre": "L\u00e1mpara de Escritorio Led Touch",
         "precio": 45.0,
@@ -31,6 +11,26 @@
                 "usuario": "A. Garc\u00eda",
                 "estrellas": 5,
                 "comentario": "El L\u00e1mpara de Escritorio Led Touch es justo lo que esperaba. Muy buena calidad."
+            },
+            {
+                "usuario": "M. L\u00f3pez",
+                "estrellas": 5,
+                "comentario": "Lleg\u00f3 antes de tiempo y funciona perfectamente."
+            }
+        ]
+    },
+    {
+        "id": "CJTEC4455",
+        "nombre": "Auriculares Bluetooth Lumina Sound",
+        "precio": 65.0,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Cancelaci\u00f3n de ruido activa y 40 horas de bater\u00eda. El sonido del futuro.",
+        "imagen": "https://cc-west-usa.oss-accelerate.aliyuncs.com/20210323/34111325145.jpg",
+        "resenas": [
+            {
+                "usuario": "A. Garc\u00eda",
+                "estrellas": 5,
+                "comentario": "El Auriculares Bluetooth Lumina Sound es justo lo que esperaba. Muy buena calidad."
             },
             {
                 "usuario": "M. L\u00f3pez",
