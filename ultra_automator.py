@@ -1,69 +1,70 @@
 import os
 import json
 import random
+import requests
 
-class LuminaPersistenceAutomator:
-    def __init__(self):
-        # Base de datos maestra con imágenes verificadas
-        self.master_db = {
-            "Tecnología": [
-                {"id": "TECH_01", "nombre": "Teclado Mecánico Retro", "precio": 125.0, "categoria": "Tecnología", "descripcion": "Estética vintage con switches profesionales.", "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"},
-                {"id": "TECH_02", "nombre": "Cámara de Seguridad 360", "precio": 89.0, "categoria": "Tecnología", "descripcion": "Visión nocturna y seguimiento por IA.", "imagen": "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?w=800"},
-                {"id": "TECH_03", "nombre": "Auriculares de Madera", "precio": 199.0, "categoria": "Tecnología", "descripcion": "Acústica natural y diseño premium.", "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"}
-            ],
-            "Hogar": [
-                {"id": "HOME_01", "nombre": "Prensa Francesa Oro", "precio": 45.0, "categoria": "Hogar", "descripcion": "Acero inoxidable con acabado en oro rosa.", "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"},
-                {"id": "HOME_02", "nombre": "Lámpara Minimalista", "precio": 75.0, "categoria": "Hogar", "descripcion": "Luz cálida regulable para ambientes modernos.", "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"}
-            ],
-            "Jardinería": [
-                {"id": "GARD_01", "nombre": "Kit Botánico de Acero", "precio": 65.0, "categoria": "Jardinería", "descripcion": "Herramientas de grado profesional.", "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"}
-            ],
-            "Belleza": [
-                {"id": "BEA_01", "nombre": "Set de Cuidado Facial", "precio": 55.0, "categoria": "Belleza", "descripcion": "Extractos orgánicos para una piel radiante.", "imagen": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800"}
-            ]
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+class UnlimitedAutomator:
+    def generate_ai_product(self):
+        """Usa GPT-4 para inventar un producto tendencia y una categoría"""
+        print("Consultando tendencias globales con IA...")
+        
+        url = "https://api.openai.com/v1/chat/completions"
+        headers = {
+            "Authorization": f"Bearer {OPENAI_API_KEY}",
+            "Content-Type": "application/json"
+        }
+        
+        prompt = """Inventa un producto de dropshipping de lujo. 
+        Responde SOLO en formato JSON puro con estos campos: 
+        id (inventado), nombre, precio, categoria (inventa una como Fitness, Mascotas, Oficina, etc), 
+        descripcion (vendedora y corta), imagen (un término de búsqueda para Unsplash)."""
+
+        data = {
+            "model": "gpt-3.5-turbo",
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.8
         }
 
-    def update_json(self):
+        try:
+            response = requests.post(url, headers=headers, json=data).json()
+            product_raw = json.loads(response['choices'][0]['message']['content'])
+            
+            # Limpiar la imagen para que sea un link real de Unsplash
+            keyword = product_raw['imagen'].replace(" ", "+")
+            product_raw['imagen'] = f"https://source.unsplash.com/featured/800x1000/?{keyword},{random.randint(1,1000)}"
+            
+            return product_raw
+        except Exception as e:
+            print(f"Error con IA: {e}")
+            return None
+
+    def run(self):
         filename = 'productos.json'
         
-        # 1. Intentar leer productos existentes
+        # Cargar existentes
         if os.path.exists(filename):
             with open(filename, 'r') as f:
-                try:
-                    current_products = json.load(f)
-                except:
-                    current_products = []
+                try: products = json.load(f)
+                except: products = []
         else:
-            current_products = []
+            products = []
 
-        # 2. Elegir un producto nuevo al azar de la DB que NO esté ya en la web
-        all_ids = [p['id'] for p in current_products]
-        available_categories = list(self.master_db.keys())
-        
-        # Intentar buscar uno nuevo
-        new_prod = None
-        for _ in range(10): # 10 intentos para encontrar uno no repetido
-            cat = random.choice(available_categories)
-            candidate = random.choice(self.master_db[cat])
-            if candidate['id'] not in all_ids:
-                new_prod = candidate
-                break
-        
-        if new_prod:
-            # Añadir reseñas ficticias
-            new_prod["resenas"] = [
-                {"usuario": "M. Torres", "estrellas": 5, "comentario": "Impresionante calidad."},
-                {"usuario": "Lumina Fan", "estrellas": 5, "comentario": "El diseño es de otro nivel."}
-            ]
-            current_products.append(new_prod)
-            print(f"Añadido nuevo producto: {new_prod['nombre']}")
-        else:
-            print("No hay productos nuevos para añadir hoy.")
+        # Generar 1 nuevo
+        new_item = self.generate_ai_product()
+        if new_item:
+            # Evitar duplicados por nombre
+            if not any(p['nombre'] == new_item['nombre'] for p in products):
+                products.append(new_item)
+                print(f"Añadido: {new_item['nombre']} en la categoría {new_item['categoria']}")
 
-        # 3. Guardar la lista actualizada (acumulativa)
+        # Guardar
         with open(filename, 'w') as f:
-            json.dump(current_products, f, indent=4)
+            json.dump(products, f, indent=4)
 
 if __name__ == "__main__":
-    bot = LuminaPersistenceAutomator()
-    bot.update_json()
+    if OPENAI_API_KEY:
+        UnlimitedAutomator().run()
+    else:
+        print("Falta OPENAI_API_KEY en los Secrets.")

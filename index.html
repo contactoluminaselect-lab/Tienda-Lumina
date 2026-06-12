@@ -28,16 +28,13 @@
     <!-- Navigation -->
     <nav class="premium-border sticky top-0 bg-white/90 backdrop-blur-md z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="flex items-center">
-                <div class="flex flex-col">
-                    <span class="text-sm tracking-[0.4em] font-bold uppercase leading-none">LUMINA</span>
-                    <span class="text-[10px] tracking-[0.5em] font-light uppercase text-stone-400 mt-1">SELECT</span>
-                </div>
+            <div class="flex flex-col">
+                <span class="text-sm tracking-[0.4em] font-bold uppercase leading-none">LUMINA</span>
+                <span class="text-[10px] tracking-[0.5em] font-light uppercase text-stone-400 mt-1">SELECT</span>
             </div>
             <div class="hidden md:flex space-x-10 text-[11px] uppercase tracking-widest font-semibold">
                 <a href="#coleccion" class="hover:text-stone-500 transition">Colecciones</a>
                 <a href="#filosofia" class="hover:text-stone-500 transition">Nuestra Filosofía</a>
-                <a href="#rastreo" class="hover:text-stone-500 transition">Seguimiento</a>
             </div>
             <div class="flex items-center space-x-5">
                 <button onclick="toggleCart()" class="text-[11px] uppercase tracking-widest font-bold border-b border-black">
@@ -64,124 +61,90 @@
     </div>
 
     <!-- Hero Section -->
-    <section class="relative h-[85vh] overflow-hidden bg-black text-white">
+    <section class="relative h-[60vh] overflow-hidden bg-black text-white">
         <div class="absolute inset-0 opacity-60 overflow-hidden">
             <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=2070" class="w-full h-full object-cover hero-zoom">
         </div>
         <div class="relative container mx-auto h-full flex flex-col justify-center px-6">
-            <span class="text-sm uppercase tracking-[0.4em] mb-4 block">Nueva Temporada 2026</span>
             <h1 class="text-5xl md:text-8xl max-w-4xl leading-tight">La curaduría del <br>mañana, hoy.</h1>
-            <p class="mt-8 text-lg max-w-xl font-light leading-relaxed opacity-80">
-                Objetos seleccionados por su diseño impecable y funcionalidad avanzada. Sin intermediarios, directo a su puerta.
-            </p>
             <div class="mt-12">
                 <a href="#coleccion" class="bg-white text-black px-12 py-5 text-xs uppercase tracking-widest font-bold hover:bg-stone-200 transition">Explorar Selección</a>
             </div>
         </div>
     </section>
 
-    <!-- Trust Symbols -->
-    <section id="filosofia" class="py-20 border-b">
-        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-16 text-center">
-            <div>
-                <h4 class="text-xs uppercase tracking-widest font-bold mb-4">Calidad Certificada</h4>
-                <p class="text-sm text-stone-500 leading-relaxed">Cada pieza en Lumina Select pasa por un control de calidad exhaustivo.</p>
-            </div>
-            <div>
-                <h4 class="text-xs uppercase tracking-widest font-bold mb-4">Ética en la Cadena</h4>
-                <p class="text-sm text-stone-500 leading-relaxed">Colaboramos directamente con fabricantes internacionales.</p>
-            </div>
-            <div>
-                <h4 class="text-xs uppercase tracking-widest font-bold mb-4">Soporte Ejecutivo</h4>
-                <p class="text-sm text-stone-500 leading-relaxed">Nuestro equipo está disponible 24/7 para asistirle.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Category Navigation -->
+    <!-- Categorías Dinámicas -->
     <div class="bg-white border-b overflow-x-auto sticky top-[73px] z-40">
-        <div class="container mx-auto px-6 py-4 flex space-x-8 text-[10px] uppercase tracking-[0.2em] font-bold">
-            <button onclick="filtrar('Todos')" class="hover:text-stone-400">Todos</button>
-            <button onclick="filtrar('Tecnología')" class="hover:text-stone-400">Tecnología</button>
-            <button onclick="filtrar('Hogar')" class="hover:text-stone-400">Hogar</button>
-            <button onclick="filtrar('Jardinería')" class="hover:text-stone-400">Jardinería</button>
+        <div id="category-menu" class="container mx-auto px-6 py-4 flex space-x-8 text-[10px] uppercase tracking-[0.2em] font-bold">
+            <!-- Se llena solo -->
         </div>
     </div>
 
     <!-- Dynamic Collection -->
     <section id="coleccion" class="py-24 container mx-auto px-6">
-        <div id="contenedor-productos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-20">
-            <!-- Cargando... -->
-        </div>
+        <div id="contenedor-productos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-20"></div>
     </section>
 
-    <!-- Footer Formal -->
-    <footer class="bg-stone-50 border-t py-20 mt-20">
-        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
-            <div>
-                <div class="text-lg tracking-[0.3em] font-bold mb-6">LUMINA SELECT</div>
-                <p class="text-[10px] text-stone-500 uppercase tracking-widest">&copy; 2026 Lumina Select Global Inc.</p>
-            </div>
-            <div>
-                <h5 class="text-xs uppercase tracking-widest font-bold mb-6">Información</h5>
-                <ul class="text-xs text-stone-500 space-y-4">
-                    <li><a href="legal.html" class="hover:text-black">Políticas de Envío</a></li>
-                    <li><a href="legal.html" class="hover:text-black">Devoluciones</a></li>
-                </ul>
-            </div>
-            <div>
-                <h5 class="text-xs uppercase tracking-widest font-bold mb-6">Contacto</h5>
-                <p class="text-xs text-stone-500 mb-4"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1a797574696f766e7b695a766f7773747b697f767f796e34797577">[email&#160;protected]</a></p>
-            </div>
-        </div>
-    </footer>
-
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <script>
         let todosLosProductos = [];
         let cart = JSON.parse(localStorage.getItem('lumina_cart')) || [];
 
         async function cargarProductos() {
             try {
-                const respuesta = await fetch('productos.json');
-                todosLosProductos = await respuesta.json();
+                const response = await fetch('productos.json?v=' + Date.now());
+                todosLosProductos = await response.json();
+                
+                renderCategories();
                 mostrarProductos(todosLosProductos);
                 updateCartUI();
-            } catch (error) {
-                console.error("Error:", error);
-            }
+            } catch (e) { console.error("Error cargando productos", e); }
         }
 
-        function mostrarProductos(lista) {
-            const contenedor = document.getElementById('contenedor-productos');
-            contenedor.innerHTML = '';
-            lista.forEach(p => {
-                contenedor.innerHTML += `
-                    <div class="group">
-                        <div class="aspect-[4/5] overflow-hidden bg-stone-100 mb-6 relative">
-                            <img src="${p.imagen}" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
-                        </div>
-                        <div class="flex justify-between items-start mb-2">
-                            <div>
-                                <span class="text-[9px] text-stone-400 uppercase tracking-widest">${p.categoria}</span>
-                                <h3 class="text-sm font-semibold uppercase tracking-widest">${p.nombre}</h3>
-                            </div>
-                            <span class="text-sm">$${p.precio}</span>
-                        </div>
-                        <p class="text-xs text-stone-500 mb-6 leading-relaxed">${p.descripcion}</p>
-                        <button onclick="addToCart('${p.id}')" class="w-full bg-black text-white text-[10px] uppercase tracking-widest font-bold py-4 hover:bg-stone-800 transition">
-                            Añadir al Carrito
-                        </button>
-                    </div>
-                `;
+        function renderCategories() {
+            const menu = document.getElementById('category-menu');
+            const cats = ['Todos', ...new Set(todosLosProductos.map(p => p.categoria))];
+            menu.innerHTML = '';
+            cats.forEach(cat => {
+                const btn = document.createElement('button');
+                btn.innerText = cat;
+                btn.className = 'hover:text-stone-400 transition';
+                btn.onclick = () => filtrar(cat);
+                menu.appendChild(btn);
             });
         }
 
+        function mostrarProductos(lista) {
+            const container = document.getElementById('contenedor-productos');
+            container.innerHTML = lista.map(p => `
+                <div class="group">
+                    <div class="aspect-[4/5] overflow-hidden bg-stone-100 mb-6">
+                        <img src="${p.imagen}" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                    </div>
+                    <div class="flex justify-between items-start mb-2">
+                        <div>
+                            <span class="text-[9px] text-stone-400 uppercase tracking-widest">${p.categoria}</span>
+                            <h3 class="text-sm font-semibold uppercase tracking-widest">${p.nombre}</h3>
+                        </div>
+                        <span class="text-sm">$${p.precio}</span>
+                    </div>
+                    <p class="text-xs text-stone-500 mb-6">${p.descripcion}</p>
+                    <button onclick="addToCart('${p.id}')" class="w-full bg-black text-white text-[10px] uppercase tracking-widest font-bold py-4 hover:bg-stone-800 transition">
+                        Añadir al Carrito
+                    </button>
+                </div>
+            `).join('');
+        }
+
+        function filtrar(cat) {
+            if (cat === 'Todos') mostrarProductos(todosLosProductos);
+            else mostrarProductos(todosLosProductos.filter(p => p.categoria === cat));
+        }
+
         function addToCart(id) {
-            const product = todosLosProductos.find(p => p.id === id);
-            const exists = cart.find(item => item.id === id);
+            const p = todosLosProductos.find(x => x.id === id);
+            const exists = cart.find(x => x.id === id);
             if (exists) exists.quantity++;
-            else cart.push({ ...product, quantity: 1 });
-            
+            else cart.push({...p, quantity: 1});
             localStorage.setItem('lumina_cart', JSON.stringify(cart));
             updateCartUI();
             toggleCart(true);
@@ -189,78 +152,56 @@
 
         function updateCartUI() {
             const container = document.getElementById('cart-items');
-            const count = document.getElementById('cart-count');
-            const total = document.getElementById('cart-total');
-            
-            container.innerHTML = '';
-            let totalValue = 0;
-            let totalItems = 0;
-
-            cart.forEach(item => {
-                totalValue += item.precio * item.quantity;
-                totalItems += item.quantity;
-                container.innerHTML += `
-                    <div class="flex space-x-4">
-                        <img src="${item.imagen}" class="h-20 w-16 object-cover bg-stone-100">
-                        <div class="flex-1">
-                            <h4 class="text-xs font-bold uppercase tracking-tighter">${item.nombre}</h4>
-                            <p class="text-[10px] text-stone-400 mt-1">$${item.precio} x ${item.quantity}</p>
-                            <button onclick="removeFromCart('${item.id}')" class="text-[9px] text-red-400 mt-2 uppercase underline">Eliminar</button>
-                        </div>
+            container.innerHTML = cart.map(item => `
+                <div class="flex space-x-4">
+                    <img src="${item.imagen}" class="h-20 w-16 object-cover">
+                    <div class="flex-1">
+                        <h4 class="text-xs font-bold uppercase">${item.nombre}</h4>
+                        <p class="text-[10px]">$${item.precio} x ${item.quantity}</p>
+                        <button onclick="removeFromCart('${item.id}')" class="text-[9px] text-red-400 underline">Eliminar</button>
                     </div>
-                `;
-            });
-
-            count.innerText = totalItems;
-            total.innerText = `$${totalValue.toFixed(2)}`;
-            renderPaypalCheckout(totalValue);
+                </div>
+            `).join('');
+            
+            const total = cart.reduce((sum, item) => sum + (item.precio * item.quantity), 0);
+            document.getElementById('cart-total').innerText = `$${total.toFixed(2)}`;
+            document.getElementById('cart-count').innerText = cart.length;
+            renderPaypal(total);
         }
 
         function removeFromCart(id) {
-            cart = cart.filter(item => item.id !== id);
+            cart = cart.filter(x => x.id !== id);
             localStorage.setItem('lumina_cart', JSON.stringify(cart));
             updateCartUI();
         }
 
-        function toggleCart(forceOpen = false) {
+        function toggleCart(open) {
             const drawer = document.getElementById('cart-drawer');
-            if (forceOpen) drawer.classList.add('open');
+            if (open === true) drawer.classList.add('open');
+            else if (open === false) drawer.classList.remove('open');
             else drawer.classList.toggle('open');
         }
 
-        function renderPaypalCheckout(totalValue) {
+        function renderPaypal(total) {
             const container = document.getElementById('paypal-checkout-container');
             container.innerHTML = '';
-            if (totalValue <= 0) return;
-
+            if (total <= 0) return;
             paypal.Buttons({
                 style: { layout: 'vertical', color: 'black', shape: 'rect' },
-                createOrder: (data, actions) => {
-                    return actions.order.create({
-                        purchase_units: [{
-                            description: "Lumina Select - Pedido Premium",
-                            amount: { value: totalValue.toFixed(2) }
-                        }]
-                    });
-                },
-                onApprove: (data, actions) => {
-                    return actions.order.capture().then(details => {
-                        alert('¡Pago completado! Procesando envío...');
-                        cart = [];
-                        localStorage.removeItem('lumina_cart');
-                        updateCartUI();
-                        toggleCart();
-                    });
-                }
+                createOrder: (data, actions) => actions.order.create({
+                    purchase_units: [{ amount: { value: total.toFixed(2) }, description: 'Lumina Select Order' }]
+                }),
+                onApprove: (data, actions) => actions.order.capture().then(() => {
+                    alert('Pago realizado');
+                    cart = [];
+                    localStorage.removeItem('lumina_cart');
+                    updateCartUI();
+                    toggleCart(false);
+                })
             }).render('#paypal-checkout-container');
-        }
-
-        function filtrar(categoria) {
-            if (categoria === 'Todos') mostrarProductos(todosLosProductos);
-            else mostrarProductos(todosLosProductos.filter(p => p.categoria === categoria));
         }
 
         window.onload = cargarProductos;
     </script>
-</body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a0ab41512b17c2a3',t:'MTc4MTI5MjQ2OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
