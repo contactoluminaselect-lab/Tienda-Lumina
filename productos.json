@@ -1,15 +1,43 @@
 [
     {
         "id": "CJ101",
-        "nombre": "Lámpara de Suspensión Orbital",
+        "nombre": "L\u00e1mpara de Suspensi\u00f3n Orbital",
         "precio": 89.0,
         "comparativa_mercado": 120.0,
         "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=500",
         "categoria": "Hogar",
-        "descripcion": "Iluminación de diseño vanguardista con tecnología de levitación.",
+        "descripcion": "Iluminaci\u00f3n de dise\u00f1o vanguardista con tecnolog\u00eda de levitaci\u00f3n.",
         "resenas": [
-            {"usuario": "Elena G.", "estrellas": 5, "comentario": "Una pieza de arte. La calidad de los materiales es excepcional."},
-            {"usuario": "Marco V.", "estrellas": 4, "comentario": "Diseño impecable, el envío tardó 10 días pero valió la pena."}
+            {
+                "usuario": "Elena G.",
+                "estrellas": 5,
+                "comentario": "Una pieza de arte. La calidad de los materiales es excepcional."
+            },
+            {
+                "usuario": "Marco V.",
+                "estrellas": 4,
+                "comentario": "Dise\u00f1o impecable, el env\u00edo tard\u00f3 10 d\u00edas pero vali\u00f3 la pena."
+            }
+        ]
+    },
+    {
+        "id": "TECH_02",
+        "nombre": "C\u00e1mara de Seguridad 360",
+        "precio": 89.0,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Visi\u00f3n nocturna y seguimiento por IA.",
+        "imagen": "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?w=800",
+        "resenas": [
+            {
+                "usuario": "M. Torres",
+                "estrellas": 5,
+                "comentario": "Impresionante calidad."
+            },
+            {
+                "usuario": "Lumina Fan",
+                "estrellas": 5,
+                "comentario": "El dise\u00f1o es de otro nivel."
+            }
         ]
     }
 ]
