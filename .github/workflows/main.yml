@@ -1,50 +1,36 @@
-import os
-import json
-import random
-import requests
-import time
+name: Robot_Lumina_Select
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */12 * * *'
 
-class RobustAutomator:
-    def get_ai_data(self):
-        url = "https://api.openai.com/v1/chat/completions"
-        headers = {"Authorization": f"Bearer {OPENAI_API_KEY}", "Content-Type": "application/json"}
-        prompt = "Crea un producto de lujo. Responde SOLO un JSON: {id, nombre, precio, categoria, descripcion, imagen(1 palabra ingles)}"
-        
-        try:
-            # Si no hay API KEY o falla, usamos el plan B
-            if not OPENAI_API_KEY: raise Exception("No Key")
-            resp = requests.post(url, headers=headers, json={"model": "gpt-3.5-turbo","messages": [{"role": "user", "content": prompt}]}).json()
-            data = json.loads(resp['choices'][0]['message']['content'])
-            data['imagen'] = f"https://source.unsplash.com/featured/800x1000?{data['imagen']}"
-            return data
-        except:
-            # PLAN B: Producto generado por código si la IA falla
-            nombres = ["Reloj Minimal", "Lámpara Zen", "Bolso Curado", "Gadget Pro"]
-            cats = ["Tecnología", "Hogar", "Estilo"]
-            escogido = random.choice(nombres)
-            return {
-                "id": str(time.time()),
-                "nombre": escogido + " " + str(random.randint(1,99)),
-                "precio": random.randint(50, 500),
-                "categoria": random.choice(cats),
-                "descripcion": "Calidad garantizada por Lumina Select.",
-                "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
-            }
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-    def run(self):
-        file = 'productos.json'
-        try:
-            with open(file, 'r') as f: products = json.load(f)
-        except: products = []
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
 
-        products.append(self.get_ai_data())
-        if len(products) > 10: products = products[-10:]
+      - name: Install dependencies
+        run: pip install requests
 
-        with open(file, 'w') as f:
-            json.dump(products, f, indent=4)
-        print("Cambio realizado en productos.json")
+      - name: Run script
+        run: python ultra_automator.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
-if __name__ == "__main__":
-    RobustAutomator().run()
+      - name: Commit and push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add productos.json
+          git commit -m "Update products" || echo "No changes to commit"
+          git push
