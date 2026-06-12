@@ -101,5 +101,26 @@
             }
         ],
         "timestamp": 1781296298.5095682
+    },
+    {
+        "id": "LUM-871",
+        "nombre": "Kit Bot\u00e1nico de Acero",
+        "precio": 75,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Excelencia y dise\u00f1o para su vida cotidiana. Calidad garantizada.",
+        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?q=80&w=800",
+        "timestamp": "1781296427.5827773",
+        "resenas": [
+            {
+                "usuario": "M. Vald\u00e9s",
+                "estrellas": 5,
+                "comentario": "Incre\u00edble dise\u00f1o."
+            },
+            {
+                "usuario": "Cliente Lumina",
+                "estrellas": 5,
+                "comentario": "Calidad inmejorable."
+            }
+        ]
     }
 ]
