@@ -18,5 +18,15 @@
         "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800",
         "descripcion": "Dise\u00f1o industrial para sus plantas favoritas.",
         "updated": "1781296809.5604708"
+    },
+    {
+        "id": "H1",
+        "nombre": "L\u00e1mpara Orbital",
+        "precio": 95,
+        "categoria": "Hogar",
+        "desc": "Iluminaci\u00f3n ambiental con dise\u00f1o futurista.",
+        "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800",
+        "descripcion": "Iluminaci\u00f3n ambiental con dise\u00f1o futurista.",
+        "updated": "1781296869.69279"
     }
 ]
