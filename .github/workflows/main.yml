@@ -2,18 +2,21 @@ name: Robot_Lumina_Select
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # Se ejecuta cada 12 horas solo
-  workflow_dispatch: # ESTO ACTIVA EL BOTÓN PARA FORZARLO MANUALMENTE
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+
+permissions: # ESTO ES LO QUE NOS FALTA PARA QUE EL ROBOT PUEDA GUARDAR PRODUCTOS
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Descargando archivos
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4 # ACTUALIZADO
 
       - name: Configurando Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4 # ACTUALIZADO
         with:
           python-version: '3.9'
 
@@ -33,5 +36,5 @@ jobs:
           git config --global user.name 'LuminaBot'
           git config --global user.email 'bot@luminaselect.com'
           git add productos.json
-          git commit -m "Actualización automática de inventario"
+          git commit -m "Actualización automática de inventario" || echo "No hay cambios para subir"
           git push
