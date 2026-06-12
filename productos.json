@@ -8,5 +8,15 @@
         "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800",
         "descripcion": "La esencia del tiempo en un dise\u00f1o suizo.",
         "updated": "1781296754.7853472"
+    },
+    {
+        "id": "J1",
+        "nombre": "Maceta de Cemento Pro",
+        "precio": 45,
+        "categoria": "Jard\u00edn",
+        "desc": "Dise\u00f1o industrial para sus plantas favoritas.",
+        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800",
+        "descripcion": "Dise\u00f1o industrial para sus plantas favoritas.",
+        "updated": "1781296809.5604708"
     }
 ]
