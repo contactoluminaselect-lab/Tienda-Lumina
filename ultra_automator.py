@@ -1,110 +1,67 @@
 import os
 import json
 import random
-import requests
 import time
 
-# --- CONFIGURACIÓN DE LLAVES (SE SAKAN DE GITHUB SECRETS) ---
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-CJ_API_KEY = os.getenv("CJ_API_KEY")
-
-class LuminaUltraAutomator:
+class LuminaProAutomator:
     def __init__(self):
         self.filename = 'productos.json'
-
-    def get_real_product_from_cj(self):
-        """Busca productos reales en el catálogo de CJ Dropshipping"""
-        print("Conectando con CJ Dropshipping API...")
-        
-        # Si no hay API Key de CJ, usamos una lista de respaldo de alta calidad
-        if not CJ_API_KEY:
-            return self.get_fallback_product()
-
-        url = "https://developers.cjdropshipping.com/api2.0/v1/product/list"
-        headers = {"CJ-Access-Token": CJ_API_KEY}
-        params = {"pageSize": 50, "categoryName": random.choice(["Electronic", "Home", "Jewelry"])}
-
-        try:
-            response = requests.get(url, headers=headers, params=params, timeout=10)
-            data = response.json()
-            if data['code'] == 200 and data['data']['list']:
-                raw_prod = random.choice(data['data']['list'])
-                return {
-                    "id": raw_prod['productSku'],
-                    "nombre": raw_prod['productName'],
-                    "precio": float(raw_prod['sellPrice']) * 2.5, # Margen de ganancia
-                    "categoria": raw_prod['categoryName'],
-                    "descripcion": "Producto de alta gama seleccionado por nuestra IA.",
-                    "imagen": raw_prod['productImage']
-                }
-        except:
-            return self.get_fallback_product()
-
-    def beautify_with_ai(self, product):
-        """Usa OpenAI para que el nombre y la descripción suenen a marca de lujo"""
-        if not OPENAI_API_KEY:
-            return product
-
-        print(f"Mejorando '{product['nombre']}' con Inteligencia Artificial...")
-        url = "https://api.openai.com/v1/chat/completions"
-        headers = {"Authorization": f"Bearer {OPENAI_API_KEY}", "Content-Type": "application/json"}
-        
-        prompt = f"Eres el redactor de una tienda de lujo llamada Lumina Select. Transforma este producto: Nombre: {product['nombre']}. Crea un nombre corto y elegante, y una descripción sofisticada. Responde SOLO un JSON con: nombre, descripcion."
-
-        try:
-            resp = requests.post(url, headers=headers, json={
-                "model": "gpt-3.5-turbo",
-                "messages": [{"role": "user", "content": prompt}],
-                "temperature": 0.7
-            }).json()
-            
-            ai_data = json.loads(resp['choices'][0]['message']['content'])
-            product['nombre'] = ai_data['nombre']
-            product['descripcion'] = ai_data['descripcion']
-            return product
-        except:
-            return product
-
-    def get_fallback_product(self):
-        """Productos de respaldo con imágenes HD que nunca fallan si la API falla"""
-        items = [
-            {"id": "CJ-WATCH-99", "nombre": "Reloj Minimalista", "categoria": "Tecnología", "precio": 150.0, "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"},
-            {"id": "CJ-LAMP-88", "nombre": "Lámpara Orbital", "categoria": "Hogar", "precio": 89.0, "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"},
-            {"id": "CJ-BAG-77", "nombre": "Bolso de Cuero Curado", "categoria": "Accesorios", "precio": 210.0, "imagen": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800"}
-        ]
-        return random.choice(items)
+        # BANCO DE IMÁGENES PREMIUM (Links directos de Unsplash que NUNCA fallan)
+        self.premium_pool = {
+            "Tecnología": [
+                {"n": "Smartwatch V3 Diamond", "p": 125, "img": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800"},
+                {"n": "Cámara Mirrorless Pro", "p": 850, "img": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800"},
+                {"n": "Teclado Mecánico Zen", "p": 145, "img": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?q=80&w=800"}
+            ],
+            "Hogar": [
+                {"n": "Lámpara Orbital Minimal", "p": 89, "img": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?q=80&w=800"},
+                {"n": "Prensa Francesa Cobre", "p": 45, "img": "https://images.unsplash.com/photo-1544190153-060cb6277f67?q=80&w=800"},
+                {"n": "Silla Nórdica Ergo", "p": 210, "img": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?q=80&w=800"}
+            ],
+            "Jardinería": [
+                {"n": "Kit Botánico de Acero", "p": 75, "img": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?q=80&w=800"},
+                {"n": "Maceta Inteligente WiFi", "p": 35, "img": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?q=80&w=800"}
+            ],
+            "Belleza": [
+                {"n": "Rodillo de Jade Puro", "p": 25, "img": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=800"},
+                {"n": "Set de Cuidado Orgánico", "p": 55, "img": "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=800"}
+            ]
+        }
 
     def run(self):
         # 1. Cargar inventario actual
-        if os.path.exists(self.filename):
-            with open(self.filename, 'r') as f:
-                try: products = json.load(f)
-                except: products = []
-        else:
-            products = []
+        try:
+            with open(self.filename, 'r') as f: products = json.load(f)
+        except: products = []
 
-        # 2. Obtener y mejorar producto
-        new_item = self.get_real_product_from_cj()
-        new_item = self.beautify_with_ai(new_item)
-        
-        # 3. Añadir reseñas
-        new_item["resenas"] = [
-            {"usuario": "M. Valdés", "estrellas": 5, "comentario": "Una pieza excepcional, muy recomendada."},
-            {"usuario": "Lumina Client", "estrellas": 5, "comentario": "Calidad premium en cada detalle."}
-        ]
-        new_item["timestamp"] = time.time()
+        # 2. Seleccionar categoría y producto al azar del banco de confianza
+        cat = random.choice(list(self.premium_pool.keys()))
+        item = random.choice(self.premium_pool[cat])
 
-        # 4. Evitar duplicados y guardar
-        if not any(p['id'] == new_item['id'] for p in products):
-            products.append(new_item)
-            # Mantener máximo 15 productos para que la web vuele
+        # Evitar duplicados exactos
+        if not any(p['nombre'] == item['n'] for p in products):
+            new_prod = {
+                "id": "LUM-" + str(random.randint(100, 999)),
+                "nombre": item["n"],
+                "precio": item["p"],
+                "categoria": cat,
+                "descripcion": "Excelencia y diseño para su vida cotidiana. Calidad garantizada.",
+                "imagen": item["img"],
+                "timestamp": str(time.time()),
+                "resenas": [
+                    {"usuario": "M. Valdés", "estrellas": 5, "comentario": "Increíble diseño."},
+                    {"usuario": "Cliente Lumina", "estrellas": 5, "comentario": "Calidad inmejorable."}
+                ]
+            }
+            products.append(new_prod)
+            # Mantener catálogo fresco (últimos 15)
             if len(products) > 15: products = products[-15:]
-            
+
             with open(self.filename, 'w') as f:
                 json.dump(products, f, indent=4)
-            print(f"PRODUCTO PUBLICADO: {new_item['nombre']}")
+            print(f"Producto publicado: {item['n']}")
         else:
-            print("El producto ya existe en el catálogo.")
+            print("El producto ya existe.")
 
 if __name__ == "__main__":
-    LuminaUltraAutomator().run()
+    LuminaProAutomator().run()
