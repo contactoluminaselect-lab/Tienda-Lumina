@@ -1,41 +1,58 @@
 [
     {
-        "id": "CJHOG7788",
-        "nombre": "L\u00e1mpara de Escritorio Led Touch",
-        "precio": 45.0,
-        "categoria": "Hogar",
-        "descripcion": "Control t\u00e1ctil, 3 niveles de intensidad y brazo flexible. Elegancia minimalista.",
-        "imagen": "https://cc-west-usa.oss-accelerate.aliyuncs.com/20200821/135111195650.jpg",
+        "id": "TECH_01",
+        "nombre": "Teclado Mec\u00e1nico Retro",
+        "precio": 120.0,
+        "desc": "Est\u00e9tica vintage con switches profesionales. Iluminaci\u00f3n \u00e1mbar.",
+        "img": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800",
         "resenas": [
             {
-                "usuario": "A. Garc\u00eda",
+                "usuario": "Cliente Verificado",
                 "estrellas": 5,
-                "comentario": "El L\u00e1mpara de Escritorio Led Touch es justo lo que esperaba. Muy buena calidad."
+                "comentario": "Excelente producto, la calidad de Lumina Select se nota."
             },
             {
-                "usuario": "M. L\u00f3pez",
+                "usuario": "User Premium",
                 "estrellas": 5,
-                "comentario": "Lleg\u00f3 antes de tiempo y funciona perfectamente."
+                "comentario": "Lleg\u00f3 muy bien empaquetado y funciona de maravilla."
             }
         ]
     },
     {
-        "id": "CJTEC4455",
-        "nombre": "Auriculares Bluetooth Lumina Sound",
-        "precio": 65.0,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Cancelaci\u00f3n de ruido activa y 40 horas de bater\u00eda. El sonido del futuro.",
-        "imagen": "https://cc-west-usa.oss-accelerate.aliyuncs.com/20210323/34111325145.jpg",
+        "id": "BEAUTY_01",
+        "nombre": "Rodillo de Jade Premium",
+        "precio": 25.0,
+        "desc": "Piedra aut\u00e9ntica para masaje facial. Reduce la inflamaci\u00f3n al instante.",
+        "img": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800",
         "resenas": [
             {
-                "usuario": "A. Garc\u00eda",
+                "usuario": "Cliente Verificado",
                 "estrellas": 5,
-                "comentario": "El Auriculares Bluetooth Lumina Sound es justo lo que esperaba. Muy buena calidad."
+                "comentario": "Excelente producto, la calidad de Lumina Select se nota."
             },
             {
-                "usuario": "M. L\u00f3pez",
+                "usuario": "User Premium",
                 "estrellas": 5,
-                "comentario": "Lleg\u00f3 antes de tiempo y funciona perfectamente."
+                "comentario": "Lleg\u00f3 muy bien empaquetado y funciona de maravilla."
+            }
+        ]
+    },
+    {
+        "id": "HOME_01",
+        "nombre": "Prensa Francesa de Cobre",
+        "precio": 45.0,
+        "desc": "Doble pared de aislamiento. El caf\u00e9 perfecto con un dise\u00f1o ic\u00f3nico.",
+        "img": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800",
+        "resenas": [
+            {
+                "usuario": "Cliente Verificado",
+                "estrellas": 5,
+                "comentario": "Excelente producto, la calidad de Lumina Select se nota."
+            },
+            {
+                "usuario": "User Premium",
+                "estrellas": 5,
+                "comentario": "Lleg\u00f3 muy bien empaquetado y funciona de maravilla."
             }
         ]
     }
