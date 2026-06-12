@@ -4,101 +4,107 @@ import random
 import requests
 import time
 
-# --- CONFIGURACIÓN DE LLAVES ---
+# --- CONFIGURACIÓN DE LLAVES (SE SAKAN DE GITHUB SECRETS) ---
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+CJ_API_KEY = os.getenv("CJ_API_KEY")
 
 class LuminaUltraAutomator:
     def __init__(self):
         self.filename = 'productos.json'
-        # PLAN B: Catálogo de respaldo con imágenes HD verificadas (Unsplash)
-        self.fallback_db = [
-            {"nombre": "Reloj de Titanio Minimalista", "categoria": "Tecnología", "precio": 199.0, "img": "minimalist+watch"},
-            {"nombre": "Lámpara de Levitación Magnética", "categoria": "Hogar", "precio": 145.0, "img": "levitating+lamp"},
-            {"nombre": "Set de Café Prensa Francesa Pro", "categoria": "Hogar", "precio": 55.0, "img": "french+press"},
-            {"nombre": "Cámara Mirrorless Retro", "categoria": "Tecnología", "precio": 850.0, "img": "retro+camera"},
-            {"nombre": "Humidificador de Niebla Fría", "categoria": "Hogar", "precio": 45.0, "img": "humidifier"},
-            {"nombre": "Auriculares Noise Cancelling", "categoria": "Tecnología", "precio": 299.0, "img": "headphones"},
-            {"nombre": "Set de Jardinería de Acero", "categoria": "Jardinería", "precio": 75.0, "img": "garden+tools"},
-            {"nombre": "Maceta Inteligente WiFi", "categoria": "Jardinería", "precio": 35.0, "img": "smart+plant+pot"}
-        ]
 
-    def get_ai_product(self):
-        """Intenta generar un producto con OpenAI, si falla usa el Fallback"""
-        if not OPENAI_API_KEY:
-            print("No se detectó OPENAI_API_KEY. Usando catálogo interno...")
+    def get_real_product_from_cj(self):
+        """Busca productos reales en el catálogo de CJ Dropshipping"""
+        print("Conectando con CJ Dropshipping API...")
+        
+        # Si no hay API Key de CJ, usamos una lista de respaldo de alta calidad
+        if not CJ_API_KEY:
             return self.get_fallback_product()
 
-        print("Consultando tendencias globales con OpenAI...")
+        url = "https://developers.cjdropshipping.com/api2.0/v1/product/list"
+        headers = {"CJ-Access-Token": CJ_API_KEY}
+        params = {"pageSize": 50, "categoryName": random.choice(["Electronic", "Home", "Jewelry"])}
+
+        try:
+            response = requests.get(url, headers=headers, params=params, timeout=10)
+            data = response.json()
+            if data['code'] == 200 and data['data']['list']:
+                raw_prod = random.choice(data['data']['list'])
+                return {
+                    "id": raw_prod['productSku'],
+                    "nombre": raw_prod['productName'],
+                    "precio": float(raw_prod['sellPrice']) * 2.5, # Margen de ganancia
+                    "categoria": raw_prod['categoryName'],
+                    "descripcion": "Producto de alta gama seleccionado por nuestra IA.",
+                    "imagen": raw_prod['productImage']
+                }
+        except:
+            return self.get_fallback_product()
+
+    def beautify_with_ai(self, product):
+        """Usa OpenAI para que el nombre y la descripción suenen a marca de lujo"""
+        if not OPENAI_API_KEY:
+            return product
+
+        print(f"Mejorando '{product['nombre']}' con Inteligencia Artificial...")
         url = "https://api.openai.com/v1/chat/completions"
         headers = {"Authorization": f"Bearer {OPENAI_API_KEY}", "Content-Type": "application/json"}
         
-        prompt = "Crea un producto de dropshipping de lujo. Responde SOLO un objeto JSON con: id, nombre, precio (numero), categoria, descripcion, imagen (1 palabra en ingles)."
+        prompt = f"Eres el redactor de una tienda de lujo llamada Lumina Select. Transforma este producto: Nombre: {product['nombre']}. Crea un nombre corto y elegante, y una descripción sofisticada. Responde SOLO un JSON con: nombre, descripcion."
 
         try:
-            response = requests.post(url, headers=headers, json={
+            resp = requests.post(url, headers=headers, json={
                 "model": "gpt-3.5-turbo",
                 "messages": [{"role": "user", "content": prompt}],
-                "temperature": 0.8
-            }, timeout=10)
+                "temperature": 0.7
+            }).json()
             
-            res_json = response.json()
-            content = res_json['choices'][0]['message']['content']
-            product = json.loads(content)
-            
-            # Formatear imagen con Unsplash
-            keyword = product['imagen'].replace(" ", "")
-            product['imagen'] = f"https://source.unsplash.com/featured/800x1000?{keyword}"
+            ai_data = json.loads(resp['choices'][0]['message']['content'])
+            product['nombre'] = ai_data['nombre']
+            product['descripcion'] = ai_data['descripcion']
             return product
-        except Exception as e:
-            print(f"Error con OpenAI ({e}). Usando catálogo interno...")
-            return self.get_fallback_product()
+        except:
+            return product
 
     def get_fallback_product(self):
-        """Selecciona un producto del catálogo interno de seguridad"""
-        item = random.choice(self.fallback_db)
-        return {
-            "id": "LUM-" + str(random.randint(1000, 9999)),
-            "nombre": item["nombre"],
-            "precio": item["precio"],
-            "categoria": item["categoria"],
-            "descripcion": "Una pieza de curaduría exclusiva seleccionada por Lumina Select para elevar su estilo de vida.",
-            "imagen": f"https://source.unsplash.com/featured/800x1000?{item['img']}"
-        }
+        """Productos de respaldo con imágenes HD que nunca fallan si la API falla"""
+        items = [
+            {"id": "CJ-WATCH-99", "nombre": "Reloj Minimalista", "categoria": "Tecnología", "precio": 150.0, "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"},
+            {"id": "CJ-LAMP-88", "nombre": "Lámpara Orbital", "categoria": "Hogar", "precio": 89.0, "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"},
+            {"id": "CJ-BAG-77", "nombre": "Bolso de Cuero Curado", "categoria": "Accesorios", "precio": 210.0, "imagen": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800"}
+        ]
+        return random.choice(items)
 
     def run(self):
-        # 1. Cargar productos actuales
+        # 1. Cargar inventario actual
         if os.path.exists(self.filename):
             with open(self.filename, 'r') as f:
-                try:
-                    products = json.load(f)
-                except:
-                    products = []
+                try: products = json.load(f)
+                except: products = []
         else:
             products = []
 
-        # 2. Generar el nuevo producto
-        new_item = self.get_ai_product()
+        # 2. Obtener y mejorar producto
+        new_item = self.get_real_product_from_cj()
+        new_item = self.beautify_with_ai(new_item)
         
-        # 3. Añadir reseñas automáticas
+        # 3. Añadir reseñas
         new_item["resenas"] = [
-            {"usuario": "Cliente Verificado", "estrellas": 5, "comentario": "Excelente calidad y diseño."},
-            {"usuario": "Lumina VIP", "estrellas": 5, "comentario": "Superó mis expectativas totalmente."}
+            {"usuario": "M. Valdés", "estrellas": 5, "comentario": "Una pieza excepcional, muy recomendada."},
+            {"usuario": "Lumina Client", "estrellas": 5, "comentario": "Calidad premium en cada detalle."}
         ]
-        
-        # 4. Forzar cambio con marca de tiempo (Evita que GitHub ignore el archivo)
-        new_item["updated_at"] = str(time.time())
-        
-        # 5. Añadir a la lista y mantener solo los últimos 12 para que la web cargue rápido
-        products.append(new_item)
-        if len(products) > 12:
-            products = products[-12:]
+        new_item["timestamp"] = time.time()
 
-        # 6. Guardar archivo
-        with open(self.filename, 'w') as f:
-            json.dump(products, f, indent=4)
-        
-        print(f"ÉXITO: Se ha añadido '{new_item['nombre']}' a la tienda.")
+        # 4. Evitar duplicados y guardar
+        if not any(p['id'] == new_item['id'] for p in products):
+            products.append(new_item)
+            # Mantener máximo 15 productos para que la web vuele
+            if len(products) > 15: products = products[-15:]
+            
+            with open(self.filename, 'w') as f:
+                json.dump(products, f, indent=4)
+            print(f"PRODUCTO PUBLICADO: {new_item['nombre']}")
+        else:
+            print("El producto ya existe en el catálogo.")
 
 if __name__ == "__main__":
-    bot = LuminaUltraAutomator()
-    bot.run()
+    LuminaUltraAutomator().run()
