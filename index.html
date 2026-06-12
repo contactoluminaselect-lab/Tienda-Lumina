@@ -20,17 +20,17 @@
 </head>
 <body class="bg-white">
 
-    <!-- Top Bar -->
     <div class="bg-stone-100 text-[10px] tracking-[0.2em] text-center py-2 uppercase font-semibold border-b">
         Envíos Prioritarios Globales & Garantía de Satisfacción de 30 Días
     </div>
 
-    <!-- Navigation -->
     <nav class="premium-border sticky top-0 bg-white/90 backdrop-blur-md z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="flex flex-col">
-                <span class="text-sm tracking-[0.4em] font-bold uppercase leading-none">LUMINA</span>
-                <span class="text-[10px] tracking-[0.5em] font-light uppercase text-stone-400 mt-1">SELECT</span>
+            <div class="flex items-center">
+                <div class="flex flex-col">
+                    <span class="text-sm tracking-[0.4em] font-bold uppercase leading-none">LUMINA</span>
+                    <span class="text-[10px] tracking-[0.5em] font-light uppercase text-stone-400 mt-1">SELECT</span>
+                </div>
             </div>
             <div class="hidden md:flex space-x-10 text-[11px] uppercase tracking-widest font-semibold">
                 <a href="#coleccion" class="hover:text-stone-500 transition">Colecciones</a>
@@ -61,7 +61,7 @@
     </div>
 
     <!-- Hero Section -->
-    <section class="relative h-[60vh] overflow-hidden bg-black text-white">
+    <section class="relative h-[70vh] overflow-hidden bg-black text-white">
         <div class="absolute inset-0 opacity-60 overflow-hidden">
             <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=2070" class="w-full h-full object-cover hero-zoom">
         </div>
@@ -73,17 +73,21 @@
         </div>
     </section>
 
-    <!-- Categorías Dinámicas -->
+    <!-- Categorías -->
     <div class="bg-white border-b overflow-x-auto sticky top-[73px] z-40">
-        <div id="category-menu" class="container mx-auto px-6 py-4 flex space-x-8 text-[10px] uppercase tracking-[0.2em] font-bold">
-            <!-- Se llena solo -->
-        </div>
+        <div id="category-menu" class="container mx-auto px-6 py-4 flex space-x-8 text-[10px] uppercase tracking-[0.2em] font-bold"></div>
     </div>
 
-    <!-- Dynamic Collection -->
     <section id="coleccion" class="py-24 container mx-auto px-6">
         <div id="contenedor-productos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-20"></div>
     </section>
+
+    <footer class="bg-stone-50 border-t py-20 mt-20">
+        <div class="container mx-auto px-6 text-center">
+            <div class="text-lg tracking-[0.3em] font-bold mb-6">LUMINA SELECT</div>
+            <p class="text-[10px] text-stone-500 uppercase tracking-widest">&copy; 2026 Lumina Select Global Inc.</p>
+        </div>
+    </footer>
 
     <script>
         let todosLosProductos = [];
@@ -93,46 +97,44 @@
             try {
                 const response = await fetch('productos.json?v=' + Date.now());
                 todosLosProductos = await response.json();
-                
                 renderCategories();
                 mostrarProductos(todosLosProductos);
                 updateCartUI();
-            } catch (e) { console.error("Error cargando productos", e); }
+            } catch (e) { console.error(e); }
         }
 
         function renderCategories() {
             const menu = document.getElementById('category-menu');
             const cats = ['Todos', ...new Set(todosLosProductos.map(p => p.categoria))];
-            menu.innerHTML = '';
-            cats.forEach(cat => {
-                const btn = document.createElement('button');
-                btn.innerText = cat;
-                btn.className = 'hover:text-stone-400 transition';
-                btn.onclick = () => filtrar(cat);
-                menu.appendChild(btn);
-            });
+            menu.innerHTML = cats.map(cat => `<button onclick="filtrar('${cat}')" class="hover:text-stone-400 transition">${cat}</button>`).join('');
         }
 
         function mostrarProductos(lista) {
             const container = document.getElementById('contenedor-productos');
-            container.innerHTML = lista.map(p => `
-                <div class="group">
-                    <div class="aspect-[4/5] overflow-hidden bg-stone-100 mb-6">
-                        <img src="${p.imagen}" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
-                    </div>
-                    <div class="flex justify-between items-start mb-2">
-                        <div>
-                            <span class="text-[9px] text-stone-400 uppercase tracking-widest">${p.categoria}</span>
-                            <h3 class="text-sm font-semibold uppercase tracking-widest">${p.nombre}</h3>
+            container.innerHTML = lista.map(p => {
+                // BLINDAJE: Detectar imagen y descripción sin importar el nombre del campo
+                const finalImg = p.imagen || p.img || 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800';
+                const finalDesc = p.descripcion || p.desc || 'Excelencia y diseño garantizado.';
+                
+                return `
+                    <div class="group">
+                        <div class="aspect-[4/5] overflow-hidden bg-stone-100 mb-6">
+                            <img src="${finalImg}" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
                         </div>
-                        <span class="text-sm">$${p.precio}</span>
+                        <div class="flex justify-between items-start mb-2">
+                            <div>
+                                <span class="text-[9px] text-stone-400 uppercase tracking-widest">${p.categoria}</span>
+                                <h3 class="text-sm font-semibold uppercase tracking-widest">${p.nombre}</h3>
+                            </div>
+                            <span class="text-sm">$${p.precio}</span>
+                        </div>
+                        <p class="text-xs text-stone-500 mb-6">${finalDesc}</p>
+                        <button onclick="addToCart('${p.id}')" class="w-full bg-black text-white text-[10px] uppercase tracking-widest font-bold py-4 hover:bg-stone-800 transition">
+                            Añadir al Carrito
+                        </button>
                     </div>
-                    <p class="text-xs text-stone-500 mb-6">${p.descripcion}</p>
-                    <button onclick="addToCart('${p.id}')" class="w-full bg-black text-white text-[10px] uppercase tracking-widest font-bold py-4 hover:bg-stone-800 transition">
-                        Añadir al Carrito
-                    </button>
-                </div>
-            `).join('');
+                `;
+            }).join('');
         }
 
         function filtrar(cat) {
@@ -154,7 +156,7 @@
             const container = document.getElementById('cart-items');
             container.innerHTML = cart.map(item => `
                 <div class="flex space-x-4">
-                    <img src="${item.imagen}" class="h-20 w-16 object-cover">
+                    <img src="${item.imagen || item.img}" class="h-20 w-16 object-cover">
                     <div class="flex-1">
                         <h4 class="text-xs font-bold uppercase">${item.nombre}</h4>
                         <p class="text-[10px]">$${item.precio} x ${item.quantity}</p>
@@ -162,7 +164,6 @@
                     </div>
                 </div>
             `).join('');
-            
             const total = cart.reduce((sum, item) => sum + (item.precio * item.quantity), 0);
             document.getElementById('cart-total').innerText = `$${total.toFixed(2)}`;
             document.getElementById('cart-count').innerText = cart.length;
@@ -189,7 +190,7 @@
             paypal.Buttons({
                 style: { layout: 'vertical', color: 'black', shape: 'rect' },
                 createOrder: (data, actions) => actions.order.create({
-                    purchase_units: [{ amount: { value: total.toFixed(2) }, description: 'Lumina Select Order' }]
+                    purchase_units: [{ amount: { value: total.toFixed(2) } }]
                 }),
                 onApprove: (data, actions) => actions.order.capture().then(() => {
                     alert('Pago realizado');
@@ -203,5 +204,5 @@
 
         window.onload = cargarProductos;
     </script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a0ab41512b17c2a3',t:'MTc4MTI5MjQ2OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a0aba580f8420184',t:'MTc4MTI5NjU3Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
