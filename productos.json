@@ -1,15 +1,42 @@
 [
     {
-        "id": "CJ101",
-        "nombre": "Lámpara de Suspensión Orbital",
-        "precio": 89.0,
-        "comparativa_mercado": 120.0,
-        "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=500",
-        "categoria": "Hogar",
-        "descripcion": "Iluminación de diseño vanguardista con tecnología de levitación.",
+        "id": "CJ_WATCH_04",
+        "nombre": "Reloj de Cristal L\u00edquido",
+        "precio": 150,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "La elegancia del futuro en tu mu\u00f1eca.",
+        "imagen": "https://images.unsplash.com/photo-1579534?w=500",
         "resenas": [
-            {"usuario": "Elena G.", "estrellas": 5, "comentario": "Una pieza de arte. La calidad de los materiales es excepcional."},
-            {"usuario": "Marco V.", "estrellas": 4, "comentario": "Diseño impecable, el envío tardó 10 días pero valió la pena."}
+            {
+                "usuario": "Cliente VIP",
+                "estrellas": 5,
+                "comentario": "Incre\u00edble selecci\u00f3n, calidad insuperable."
+            },
+            {
+                "usuario": "Lumina User",
+                "estrellas": 5,
+                "comentario": "El env\u00edo fue rapid\u00edsimo. Muy profesional."
+            }
+        ]
+    },
+    {
+        "id": "CJ_TAB_01",
+        "nombre": "Tablet Ultra Slim 2026",
+        "precio": 299,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Potencia aeroespacial en tu bolsillo.",
+        "imagen": "https://images.unsplash.com/photo-1511832?w=500",
+        "resenas": [
+            {
+                "usuario": "Cliente VIP",
+                "estrellas": 5,
+                "comentario": "Incre\u00edble selecci\u00f3n, calidad insuperable."
+            },
+            {
+                "usuario": "Lumina User",
+                "estrellas": 5,
+                "comentario": "El env\u00edo fue rapid\u00edsimo. Muy profesional."
+            }
         ]
     }
 ]
