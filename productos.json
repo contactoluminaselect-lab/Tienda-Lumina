@@ -60,5 +60,26 @@
             }
         ],
         "updated_at": "1781296018.385523"
+    },
+    {
+        "id": "LUM-8966",
+        "nombre": "Auriculares Noise Cancelling",
+        "precio": 299.0,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Una pieza de curadur\u00eda exclusiva seleccionada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://source.unsplash.com/featured/800x1000?headphones",
+        "resenas": [
+            {
+                "usuario": "Cliente Verificado",
+                "estrellas": 5,
+                "comentario": "Excelente calidad y dise\u00f1o."
+            },
+            {
+                "usuario": "Lumina VIP",
+                "estrellas": 5,
+                "comentario": "Super\u00f3 mis expectativas totalmente."
+            }
+        ],
+        "updated_at": "1781296072.6399674"
     }
 ]
