@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "id": "T2",
+        "nombre": "Reloj de Cuero Minimal",
+        "precio": 180,
+        "categoria": "Tecnolog\u00eda",
+        "desc": "La esencia del tiempo en un dise\u00f1o suizo.",
+        "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800",
+        "descripcion": "La esencia del tiempo en un dise\u00f1o suizo.",
+        "updated": "1781296754.7853472"
+    }
+]
