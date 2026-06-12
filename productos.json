@@ -1,0 +1,15 @@
+[
+    {
+        "id": "CJ101",
+        "nombre": "Lámpara de Suspensión Orbital",
+        "precio": 89.0,
+        "comparativa_mercado": 120.0,
+        "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=500",
+        "categoria": "Hogar",
+        "descripcion": "Iluminación de diseño vanguardista con tecnología de levitación.",
+        "resenas": [
+            {"usuario": "Elena G.", "estrellas": 5, "comentario": "Una pieza de arte. La calidad de los materiales es excepcional."},
+            {"usuario": "Marco V.", "estrellas": 4, "comentario": "Diseño impecable, el envío tardó 10 días pero valió la pena."}
+        ]
+    }
+]
