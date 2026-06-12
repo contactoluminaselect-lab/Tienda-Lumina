@@ -39,5 +39,26 @@
                 "comentario": "El dise\u00f1o es de otro nivel."
             }
         ]
+    },
+    {
+        "id": "LUM-3847",
+        "nombre": "Reloj de Titanio Minimalista",
+        "precio": 199.0,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Una pieza de curadur\u00eda exclusiva seleccionada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://source.unsplash.com/featured/800x1000?minimalist+watch",
+        "resenas": [
+            {
+                "usuario": "Cliente Verificado",
+                "estrellas": 5,
+                "comentario": "Excelente calidad y dise\u00f1o."
+            },
+            {
+                "usuario": "Lumina VIP",
+                "estrellas": 5,
+                "comentario": "Super\u00f3 mis expectativas totalmente."
+            }
+        ],
+        "updated_at": "1781296018.385523"
     }
 ]
