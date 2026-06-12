@@ -81,5 +81,25 @@
             }
         ],
         "updated_at": "1781296072.6399674"
+    },
+    {
+        "id": "CJ-BAG-77",
+        "nombre": "Bolso de Cuero Curado",
+        "categoria": "Accesorios",
+        "precio": 210.0,
+        "imagen": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800",
+        "resenas": [
+            {
+                "usuario": "M. Vald\u00e9s",
+                "estrellas": 5,
+                "comentario": "Una pieza excepcional, muy recomendada."
+            },
+            {
+                "usuario": "Lumina Client",
+                "estrellas": 5,
+                "comentario": "Calidad premium en cada detalle."
+            }
+        ],
+        "timestamp": 1781296298.5095682
     }
 ]
