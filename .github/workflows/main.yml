@@ -2,8 +2,8 @@ name: Robot_Lumina_Select
 
 on:
   schedule:
-    - cron: '*/20 * * * *' # ESTO LE DICE A GITHUB: CADA 20 MINUTOS
-  workflow_dispatch: # Mantiene el botón para hacerlo manual también
+    - cron: '*/20 * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,26 +12,29 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout del código
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Traer todo el historial para evitar conflictos
 
-      - name: Setup Python
+      - name: Configurar Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
-      - name: Install dependencies
+      - name: Instalar librerías
         run: pip install requests
 
-      - name: Run script
+      - name: Ejecutar Robot
         run: python ultra_automator.py
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
-      - name: Commit and push
+      - name: Guardar cambios forzados
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git pull origin main # Sincronizar antes de subir
           git add productos.json
-          git commit -m "Update products automatically" || echo "No changes to commit"
+          git commit -m "IA: Actualización de catálogo $(date)" || echo "Sin cambios"
           git push origin main
