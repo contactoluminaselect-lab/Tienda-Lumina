@@ -122,5 +122,26 @@
                 "comentario": "Calidad inmejorable."
             }
         ]
+    },
+    {
+        "id": "LUM-980",
+        "nombre": "L\u00e1mpara Orbital Minimal",
+        "precio": 89,
+        "categoria": "Hogar",
+        "descripcion": "Excelencia y dise\u00f1o para su vida cotidiana. Calidad garantizada.",
+        "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?q=80&w=800",
+        "timestamp": "1781296469.801828",
+        "resenas": [
+            {
+                "usuario": "M. Vald\u00e9s",
+                "estrellas": 5,
+                "comentario": "Incre\u00edble dise\u00f1o."
+            },
+            {
+                "usuario": "Cliente Lumina",
+                "estrellas": 5,
+                "comentario": "Calidad inmejorable."
+            }
+        ]
     }
 ]
