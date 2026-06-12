@@ -58,5 +58,25 @@
                 "comentario": "Lleg\u00f3 muy bien empaquetado y funciona de maravilla."
             }
         ]
+    },
+    {
+        "id": "TECH_01",
+        "nombre": "Teclado Mec\u00e1nico Retro",
+        "precio": 125.0,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Est\u00e9tica vintage con switches profesionales.",
+        "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800",
+        "resenas": [
+            {
+                "usuario": "M. Torres",
+                "estrellas": 5,
+                "comentario": "Impresionante calidad."
+            },
+            {
+                "usuario": "Lumina Fan",
+                "estrellas": 5,
+                "comentario": "El dise\u00f1o es de otro nivel."
+            }
+        ]
     }
 ]
