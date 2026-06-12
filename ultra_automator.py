@@ -2,48 +2,68 @@ import os
 import json
 import random
 
-class LuminaMasterAutomator:
-    def get_all_categories_products(self):
-        print("Sincronizando catálogo global multicategoría...")
-        
-        # Base de datos corregida con nombres de etiquetas exactos
-        db = {
+class LuminaPersistenceAutomator:
+    def __init__(self):
+        # Base de datos maestra con imágenes verificadas
+        self.master_db = {
             "Tecnología": [
-                {"id": "TECH_01", "nombre": "Teclado Mecánico Retro", "precio": 120.0, "categoria": "Tecnología", "descripcion": "Estética vintage con switches profesionales. Iluminación ámbar.", "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"},
-                {"id": "TECH_02", "nombre": "Cámara de Seguridad 360", "precio": 85.0, "categoria": "Tecnología", "descripcion": "Visión nocturna y seguimiento por IA. Control total desde su smartphone.", "imagen": "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?w=800"}
+                {"id": "TECH_01", "nombre": "Teclado Mecánico Retro", "precio": 125.0, "categoria": "Tecnología", "descripcion": "Estética vintage con switches profesionales.", "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"},
+                {"id": "TECH_02", "nombre": "Cámara de Seguridad 360", "precio": 89.0, "categoria": "Tecnología", "descripcion": "Visión nocturna y seguimiento por IA.", "imagen": "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?w=800"},
+                {"id": "TECH_03", "nombre": "Auriculares de Madera", "precio": 199.0, "categoria": "Tecnología", "descripcion": "Acústica natural y diseño premium.", "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"}
             ],
             "Hogar": [
-                {"id": "HOME_01", "nombre": "Prensa Francesa de Cobre", "precio": 45.0, "categoria": "Hogar", "descripcion": "Doble pared de aislamiento. El café perfecto con un diseño icónico.", "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"},
-                {"id": "HOME_02", "nombre": "Humidificador Ultrasónico", "precio": 55.0, "categoria": "Hogar", "descripcion": "Silencioso y elegante. Mejora la calidad del aire con estilo.", "imagen": "https://images.unsplash.com/photo-1585671962215-4733ff0ad011?w=800"}
+                {"id": "HOME_01", "nombre": "Prensa Francesa Oro", "precio": 45.0, "categoria": "Hogar", "descripcion": "Acero inoxidable con acabado en oro rosa.", "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"},
+                {"id": "HOME_02", "nombre": "Lámpara Minimalista", "precio": 75.0, "categoria": "Hogar", "descripcion": "Luz cálida regulable para ambientes modernos.", "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"}
             ],
             "Jardinería": [
-                {"id": "GARD_01", "nombre": "Set de Herramientas Minimalista", "precio": 65.0, "categoria": "Jardinería", "descripcion": "Acero inoxidable pulido y mangos de fresno. Durabilidad eterna.", "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"},
-                {"id": "GARD_02", "nombre": "Maceta de Auto-riego", "precio": 30.0, "categoria": "Jardinería", "descripcion": "Tecnología capilar para que sus plantas siempre tengan agua.", "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"}
+                {"id": "GARD_01", "nombre": "Kit Botánico de Acero", "precio": 65.0, "categoria": "Jardinería", "descripcion": "Herramientas de grado profesional.", "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"}
             ],
             "Belleza": [
-                {"id": "BEAUTY_01", "nombre": "Rodillo de Jade Premium", "precio": 25.0, "categoria": "Belleza", "descripcion": "Piedra auténtica para masaje facial. Reduce la inflamación al instante.", "imagen": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800"},
-                {"id": "BEAUTY_02", "nombre": "Set de Brochas Pro", "precio": 40.0, "categoria": "Belleza", "descripcion": "Fibras sintéticas de alta gama. Acabado profesional en cada aplicación.", "imagen": "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=800"}
+                {"id": "BEA_01", "nombre": "Set de Cuidado Facial", "precio": 55.0, "categoria": "Belleza", "descripcion": "Extractos orgánicos para una piel radiante.", "imagen": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800"}
             ]
         }
-        
-        # Seleccionar categorías y productos
-        cats_elegidas = random.sample(list(db.keys()), 3)
-        productos_hoy = []
-        for cat in cats_elegidas:
-            prod = random.choice(db[cat])
-            prod["resenas"] = [
-                {"usuario": "Cliente Verificado", "estrellas": 5, "comentario": "Excelente producto, la calidad de Lumina Select se nota."},
-                {"usuario": "User Premium", "estrellas": 5, "comentario": "Llegó muy bien empaquetado y funciona de maravilla."}
-            ]
-            productos_hoy.append(prod)
-        return productos_hoy
 
-    def update_store(self):
-        nuevos_productos = self.get_all_categories_products()
-        with open('productos.json', 'w') as f:
-            json.dump(nuevos_productos, f, indent=4)
-        print("¡Tienda Global actualizada con nombres de campos correctos!")
+    def update_json(self):
+        filename = 'productos.json'
+        
+        # 1. Intentar leer productos existentes
+        if os.path.exists(filename):
+            with open(filename, 'r') as f:
+                try:
+                    current_products = json.load(f)
+                except:
+                    current_products = []
+        else:
+            current_products = []
+
+        # 2. Elegir un producto nuevo al azar de la DB que NO esté ya en la web
+        all_ids = [p['id'] for p in current_products]
+        available_categories = list(self.master_db.keys())
+        
+        # Intentar buscar uno nuevo
+        new_prod = None
+        for _ in range(10): # 10 intentos para encontrar uno no repetido
+            cat = random.choice(available_categories)
+            candidate = random.choice(self.master_db[cat])
+            if candidate['id'] not in all_ids:
+                new_prod = candidate
+                break
+        
+        if new_prod:
+            # Añadir reseñas ficticias
+            new_prod["resenas"] = [
+                {"usuario": "M. Torres", "estrellas": 5, "comentario": "Impresionante calidad."},
+                {"usuario": "Lumina Fan", "estrellas": 5, "comentario": "El diseño es de otro nivel."}
+            ]
+            current_products.append(new_prod)
+            print(f"Añadido nuevo producto: {new_prod['nombre']}")
+        else:
+            print("No hay productos nuevos para añadir hoy.")
+
+        # 3. Guardar la lista actualizada (acumulativa)
+        with open(filename, 'w') as f:
+            json.dump(current_products, f, indent=4)
 
 if __name__ == "__main__":
-    bot = LuminaMasterAutomator()
-    bot.update_store()
+    bot = LuminaPersistenceAutomator()
+    bot.update_json()
