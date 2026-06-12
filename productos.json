@@ -1,10 +1,10 @@
 [
     {
-        "id": "TECH_01",
-        "nombre": "Teclado Mec\u00e1nico Retro",
-        "precio": 120.0,
-        "desc": "Est\u00e9tica vintage con switches profesionales. Iluminaci\u00f3n \u00e1mbar.",
-        "img": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800",
+        "id": "TECH_02",
+        "nombre": "C\u00e1mara de Seguridad 360",
+        "precio": 85.0,
+        "desc": "Visi\u00f3n nocturna y seguimiento por IA. Control total desde su smartphone.",
+        "img": "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?w=800",
         "resenas": [
             {
                 "usuario": "Cliente Verificado",
@@ -19,11 +19,11 @@
         ]
     },
     {
-        "id": "BEAUTY_01",
-        "nombre": "Rodillo de Jade Premium",
-        "precio": 25.0,
-        "desc": "Piedra aut\u00e9ntica para masaje facial. Reduce la inflamaci\u00f3n al instante.",
-        "img": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800",
+        "id": "GARD_01",
+        "nombre": "Set de Herramientas Minimalista",
+        "precio": 65.0,
+        "desc": "Acero inoxidable pulido y mangos de fresno. Durabilidad eterna.",
+        "img": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800",
         "resenas": [
             {
                 "usuario": "Cliente Verificado",
@@ -38,11 +38,11 @@
         ]
     },
     {
-        "id": "HOME_01",
-        "nombre": "Prensa Francesa de Cobre",
-        "precio": 45.0,
-        "desc": "Doble pared de aislamiento. El caf\u00e9 perfecto con un dise\u00f1o ic\u00f3nico.",
-        "img": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800",
+        "id": "HOME_02",
+        "nombre": "Humidificador Ultras\u00f3nico",
+        "precio": 55.0,
+        "desc": "Silencioso y elegante. Mejora la calidad del aire con estilo.",
+        "img": "https://images.unsplash.com/photo-1585671962215-4733ff0ad011?w=800",
         "resenas": [
             {
                 "usuario": "Cliente Verificado",
