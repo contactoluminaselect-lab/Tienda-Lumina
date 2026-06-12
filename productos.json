@@ -48,5 +48,13 @@
         "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800",
         "descripcion": "Comodidad y minimalismo para su espacio.",
         "updated": "1781297101.5260274"
+    },
+    {
+        "id": "LUM-1781299801",
+        "nombre": "C\u00e1mara Edition 3",
+        "precio": 280,
+        "categoria": "Belleza",
+        "descripcion": "Selecci\u00f3n premium de Lumina Select.",
+        "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
     }
 ]
