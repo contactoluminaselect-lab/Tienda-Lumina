@@ -38,5 +38,15 @@
         "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800",
         "descripcion": "Captura momentos con estilo vintage y sensor 4K.",
         "updated": "1781296928.978706"
+    },
+    {
+        "id": "H2",
+        "nombre": "Silla N\u00f3rdica",
+        "precio": 220,
+        "categoria": "Hogar",
+        "desc": "Comodidad y minimalismo para su espacio.",
+        "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800",
+        "descripcion": "Comodidad y minimalismo para su espacio.",
+        "updated": "1781297101.5260274"
     }
 ]
