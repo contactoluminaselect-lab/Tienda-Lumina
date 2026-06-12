@@ -1,82 +1,15 @@
 [
     {
-        "id": "GARD_02",
-        "nombre": "Maceta de Auto-riego",
-        "precio": 30.0,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Tecnolog\u00eda capilar para que sus plantas siempre tengan agua.",
-        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800",
-        "resenas": [
-            {
-                "usuario": "Cliente Verificado",
-                "estrellas": 5,
-                "comentario": "Excelente producto, la calidad de Lumina Select se nota."
-            },
-            {
-                "usuario": "User Premium",
-                "estrellas": 5,
-                "comentario": "Lleg\u00f3 muy bien empaquetado y funciona de maravilla."
-            }
-        ]
-    },
-    {
-        "id": "BEAUTY_02",
-        "nombre": "Set de Brochas Pro",
-        "precio": 40.0,
-        "categoria": "Belleza",
-        "descripcion": "Fibras sint\u00e9ticas de alta gama. Acabado profesional en cada aplicaci\u00f3n.",
-        "imagen": "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=800",
-        "resenas": [
-            {
-                "usuario": "Cliente Verificado",
-                "estrellas": 5,
-                "comentario": "Excelente producto, la calidad de Lumina Select se nota."
-            },
-            {
-                "usuario": "User Premium",
-                "estrellas": 5,
-                "comentario": "Lleg\u00f3 muy bien empaquetado y funciona de maravilla."
-            }
-        ]
-    },
-    {
-        "id": "HOME_01",
-        "nombre": "Prensa Francesa de Cobre",
-        "precio": 45.0,
+        "id": "CJ101",
+        "nombre": "Lámpara de Suspensión Orbital",
+        "precio": 89.0,
+        "comparativa_mercado": 120.0,
+        "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=500",
         "categoria": "Hogar",
-        "descripcion": "Doble pared de aislamiento. El caf\u00e9 perfecto con un dise\u00f1o ic\u00f3nico.",
-        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800",
+        "descripcion": "Iluminación de diseño vanguardista con tecnología de levitación.",
         "resenas": [
-            {
-                "usuario": "Cliente Verificado",
-                "estrellas": 5,
-                "comentario": "Excelente producto, la calidad de Lumina Select se nota."
-            },
-            {
-                "usuario": "User Premium",
-                "estrellas": 5,
-                "comentario": "Lleg\u00f3 muy bien empaquetado y funciona de maravilla."
-            }
-        ]
-    },
-    {
-        "id": "TECH_01",
-        "nombre": "Teclado Mec\u00e1nico Retro",
-        "precio": 125.0,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Est\u00e9tica vintage con switches profesionales.",
-        "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800",
-        "resenas": [
-            {
-                "usuario": "M. Torres",
-                "estrellas": 5,
-                "comentario": "Impresionante calidad."
-            },
-            {
-                "usuario": "Lumina Fan",
-                "estrellas": 5,
-                "comentario": "El dise\u00f1o es de otro nivel."
-            }
+            {"usuario": "Elena G.", "estrellas": 5, "comentario": "Una pieza de arte. La calidad de los materiales es excepcional."},
+            {"usuario": "Marco V.", "estrellas": 4, "comentario": "Diseño impecable, el envío tardó 10 días pero valió la pena."}
         ]
     }
 ]
