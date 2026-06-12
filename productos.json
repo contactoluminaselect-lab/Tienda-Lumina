@@ -28,5 +28,15 @@
         "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800",
         "descripcion": "Iluminaci\u00f3n ambiental con dise\u00f1o futurista.",
         "updated": "1781296869.69279"
+    },
+    {
+        "id": "T1",
+        "nombre": "C\u00e1mara Retro Lumina",
+        "precio": 450,
+        "categoria": "Tecnolog\u00eda",
+        "desc": "Captura momentos con estilo vintage y sensor 4K.",
+        "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800",
+        "descripcion": "Captura momentos con estilo vintage y sensor 4K.",
+        "updated": "1781296928.978706"
     }
 ]
