@@ -56,5 +56,13 @@
         "categoria": "Belleza",
         "descripcion": "Selecci\u00f3n premium de Lumina Select.",
         "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
+    },
+    {
+        "id": "LUM-1781299925",
+        "nombre": "Auriculares Edition 6",
+        "precio": 277,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n premium de Lumina Select.",
+        "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
     }
 ]
