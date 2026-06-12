@@ -1,10 +1,11 @@
 [
     {
-        "id": "TECH_02",
-        "nombre": "C\u00e1mara de Seguridad 360",
-        "precio": 85.0,
-        "desc": "Visi\u00f3n nocturna y seguimiento por IA. Control total desde su smartphone.",
-        "img": "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?w=800",
+        "id": "GARD_02",
+        "nombre": "Maceta de Auto-riego",
+        "precio": 30.0,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Tecnolog\u00eda capilar para que sus plantas siempre tengan agua.",
+        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800",
         "resenas": [
             {
                 "usuario": "Cliente Verificado",
@@ -19,11 +20,12 @@
         ]
     },
     {
-        "id": "GARD_01",
-        "nombre": "Set de Herramientas Minimalista",
-        "precio": 65.0,
-        "desc": "Acero inoxidable pulido y mangos de fresno. Durabilidad eterna.",
-        "img": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800",
+        "id": "BEAUTY_02",
+        "nombre": "Set de Brochas Pro",
+        "precio": 40.0,
+        "categoria": "Belleza",
+        "descripcion": "Fibras sint\u00e9ticas de alta gama. Acabado profesional en cada aplicaci\u00f3n.",
+        "imagen": "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=800",
         "resenas": [
             {
                 "usuario": "Cliente Verificado",
@@ -38,11 +40,12 @@
         ]
     },
     {
-        "id": "HOME_02",
-        "nombre": "Humidificador Ultras\u00f3nico",
-        "precio": 55.0,
-        "desc": "Silencioso y elegante. Mejora la calidad del aire con estilo.",
-        "img": "https://images.unsplash.com/photo-1585671962215-4733ff0ad011?w=800",
+        "id": "HOME_01",
+        "nombre": "Prensa Francesa de Cobre",
+        "precio": 45.0,
+        "categoria": "Hogar",
+        "descripcion": "Doble pared de aislamiento. El caf\u00e9 perfecto con un dise\u00f1o ic\u00f3nico.",
+        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800",
         "resenas": [
             {
                 "usuario": "Cliente Verificado",
