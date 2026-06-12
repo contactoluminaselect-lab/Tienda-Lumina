@@ -1,0 +1,37 @@
+name: Robot_Lumina_Select
+
+on:
+  schedule:
+    - cron: '0 */12 * * *' # Se ejecuta cada 12 horas solo
+  workflow_dispatch: # ESTO ACTIVA EL BOTÓN PARA FORZARLO MANUALMENTE
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargando archivos
+        uses: actions/checkout@v2
+
+      - name: Configurando Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Instalando librerias
+        run: pip install requests
+
+      - name: Ejecutando Robot de Productos y Videos
+        run: python ultra_automator.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          CJ_API_KEY: ${{ secrets.CJ_API_KEY }}
+          PREDIS_AI_KEY: ${{ secrets.PREDIS_AI_KEY }}
+
+      - name: Guardando cambios en la web
+        run: |
+          git config --global user.name 'LuminaBot'
+          git config --global user.email 'bot@luminaselect.com'
+          git add productos.json
+          git commit -m "Actualización automática de inventario"
+          git push
