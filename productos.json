@@ -1,41 +1,41 @@
 [
     {
-        "id": "CJ_WATCH_04",
-        "nombre": "Reloj de Cristal L\u00edquido",
-        "precio": 150,
+        "id": "CJTEC4455",
+        "nombre": "Auriculares Bluetooth Lumina Sound",
+        "precio": 65.0,
         "categoria": "Tecnolog\u00eda",
-        "descripcion": "La elegancia del futuro en tu mu\u00f1eca.",
-        "imagen": "https://images.unsplash.com/photo-1579534?w=500",
+        "descripcion": "Cancelaci\u00f3n de ruido activa y 40 horas de bater\u00eda. El sonido del futuro.",
+        "imagen": "https://cc-west-usa.oss-accelerate.aliyuncs.com/20210323/34111325145.jpg",
         "resenas": [
             {
-                "usuario": "Cliente VIP",
+                "usuario": "A. Garc\u00eda",
                 "estrellas": 5,
-                "comentario": "Incre\u00edble selecci\u00f3n, calidad insuperable."
+                "comentario": "El Auriculares Bluetooth Lumina Sound es justo lo que esperaba. Muy buena calidad."
             },
             {
-                "usuario": "Lumina User",
+                "usuario": "M. L\u00f3pez",
                 "estrellas": 5,
-                "comentario": "El env\u00edo fue rapid\u00edsimo. Muy profesional."
+                "comentario": "Lleg\u00f3 antes de tiempo y funciona perfectamente."
             }
         ]
     },
     {
-        "id": "CJ_TAB_01",
-        "nombre": "Tablet Ultra Slim 2026",
-        "precio": 299,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Potencia aeroespacial en tu bolsillo.",
-        "imagen": "https://images.unsplash.com/photo-1511832?w=500",
+        "id": "CJHOG7788",
+        "nombre": "L\u00e1mpara de Escritorio Led Touch",
+        "precio": 45.0,
+        "categoria": "Hogar",
+        "descripcion": "Control t\u00e1ctil, 3 niveles de intensidad y brazo flexible. Elegancia minimalista.",
+        "imagen": "https://cc-west-usa.oss-accelerate.aliyuncs.com/20200821/135111195650.jpg",
         "resenas": [
             {
-                "usuario": "Cliente VIP",
+                "usuario": "A. Garc\u00eda",
                 "estrellas": 5,
-                "comentario": "Incre\u00edble selecci\u00f3n, calidad insuperable."
+                "comentario": "El L\u00e1mpara de Escritorio Led Touch es justo lo que esperaba. Muy buena calidad."
             },
             {
-                "usuario": "Lumina User",
+                "usuario": "M. L\u00f3pez",
                 "estrellas": 5,
-                "comentario": "El env\u00edo fue rapid\u00edsimo. Muy profesional."
+                "comentario": "Lleg\u00f3 antes de tiempo y funciona perfectamente."
             }
         ]
     }
