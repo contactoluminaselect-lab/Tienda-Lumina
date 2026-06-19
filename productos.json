@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178145100130",
-        "nombre": "Lumina Difusor Essential 3",
-        "precio": 211,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
-    },
-    {
         "id": "LUM-178146982437",
         "nombre": "Horizon Sensor de Cultivo",
         "precio": 406,
@@ -94,5 +86,13 @@
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
+    },
+    {
+        "id": "LUM-178190868822",
+        "nombre": "Zen C\u00e1mara Hub",
+        "precio": 254,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
     }
 ]
