@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178146982437",
-        "nombre": "Horizon Sensor de Cultivo",
-        "precio": 406,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
-    },
-    {
         "id": "LUM-178154091622",
         "nombre": "Zen Auriculares Pro 4",
         "precio": 420,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
+    },
+    {
+        "id": "LUM-178195045940",
+        "nombre": "Horizon Kit Bot\u00e1nico",
+        "precio": 167,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
     }
 ]
