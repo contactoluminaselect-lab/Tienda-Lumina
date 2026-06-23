@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178187255331",
-        "nombre": "Elite Maceta WiFi 9",
-        "precio": 194,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
-    },
-    {
         "id": "LUM-178189655473",
         "nombre": "Lumina Sensor de Cultivo",
         "precio": 365,
@@ -91,6 +83,14 @@
         "id": "LUM-178221177199",
         "nombre": "Neo Proyector 4K",
         "precio": 241,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
+    },
+    {
+        "id": "LUM-178223590726",
+        "nombre": "Aura Proyector 4K 8",
+        "precio": 423,
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
