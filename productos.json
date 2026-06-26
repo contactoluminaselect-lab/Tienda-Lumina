@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178216728047",
-        "nombre": "Aura Prensa Francesa",
-        "precio": 151,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?w=800"
-    },
-    {
         "id": "LUM-178221177199",
         "nombre": "Neo Proyector 4K",
         "precio": 241,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"
+    },
+    {
+        "id": "LUM-178251064477",
+        "nombre": "Lumina Silla N\u00f3rdica",
+        "precio": 146,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
     }
 ]
