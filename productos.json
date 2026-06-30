@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-17824943302",
-        "nombre": "Lumina C\u00e1mara Hub",
-        "precio": 422,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"
-    },
-    {
         "id": "LUM-178251064477",
         "nombre": "Lumina Silla N\u00f3rdica",
         "precio": 146,
@@ -91,6 +83,14 @@
         "id": "LUM-17827667793",
         "nombre": "Elite L\u00e1mpara Orbital",
         "precio": 392,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
+    },
+    {
+        "id": "LUM-17828092255",
+        "nombre": "Horizon Difusor Essential 4",
+        "precio": 174,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
