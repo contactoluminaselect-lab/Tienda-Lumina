@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178293033719",
-        "nombre": "Zen Proyector 4K",
-        "precio": 234,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
-    },
-    {
         "id": "LUM-178294634341",
         "nombre": "Zen Proyector 4K 9",
         "precio": 298,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
+    },
+    {
+        "id": "LUM-178320880428",
+        "nombre": "Neo Difusor Essential",
+        "precio": 59,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
     }
 ]
