@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178290341536",
-        "nombre": "Aura C\u00e1mara Hub",
-        "precio": 455,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
-    },
-    {
         "id": "LUM-178293033719",
         "nombre": "Zen Proyector 4K",
         "precio": 234,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
+    },
+    {
+        "id": "LUM-178319611899",
+        "nombre": "Zen Difusor Essential",
+        "precio": 217,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
     }
 ]
