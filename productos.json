@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178300982031",
-        "nombre": "Aura Kit Bot\u00e1nico",
-        "precio": 250,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
-    },
-    {
         "id": "LUM-17830250483",
         "nombre": "Horizon Silla N\u00f3rdica 6",
         "precio": 171,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
+    },
+    {
+        "id": "LUM-178328144946",
+        "nombre": "Horizon Auriculares Pro 5",
+        "precio": 283,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"
     }
 ]
