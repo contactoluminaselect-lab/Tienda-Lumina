@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178389422444",
-        "nombre": "Aura Prensa Francesa",
-        "precio": 392,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
-    },
-    {
         "id": "LUM-178389795294",
         "nombre": "Zen Silla N\u00f3rdica",
         "precio": 403,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
+    },
+    {
+        "id": "LUM-178398459439",
+        "nombre": "Aura Silla N\u00f3rdica",
+        "precio": 401,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
     }
 ]
