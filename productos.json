@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178407716344",
-        "nombre": "Aura C\u00e1mara Hub",
-        "precio": 58,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
-    },
-    {
         "id": "LUM-178408881138",
         "nombre": "Lumina Sensor de Cultivo",
         "precio": 457,
@@ -94,5 +86,13 @@
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
+    },
+    {
+        "id": "LUM-178415790157",
+        "nombre": "Horizon Auriculares Pro",
+        "precio": 204,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
     }
 ]
