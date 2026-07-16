@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178414804118",
-        "nombre": "Neo C\u00e1mara Hub",
-        "precio": 426,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
-    },
-    {
         "id": "LUM-178415326523",
         "nombre": "Lumina Sensor de Cultivo 5",
         "precio": 118,
@@ -91,6 +83,14 @@
         "id": "LUM-178422547477",
         "nombre": "Lumina L\u00e1mpara Orbital",
         "precio": 439,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?w=800"
+    },
+    {
+        "id": "LUM-178423062753",
+        "nombre": "Zen Difusor Essential",
+        "precio": 265,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?w=800"
