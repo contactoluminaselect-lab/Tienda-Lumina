@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-17841373244",
-        "nombre": "Elite Proyector 4K",
-        "precio": 56,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
-    },
-    {
         "id": "LUM-178414332111",
         "nombre": "Elite Sensor de Cultivo",
         "precio": 390,
@@ -91,6 +83,14 @@
         "id": "LUM-178421494040",
         "nombre": "Elite Smartwatch",
         "precio": 220,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
+    },
+    {
+        "id": "LUM-178422035027",
+        "nombre": "Aura Auriculares Pro",
+        "precio": 388,
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
