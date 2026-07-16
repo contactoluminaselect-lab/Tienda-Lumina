@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178409716974",
-        "nombre": "Lumina Proyector 4K",
-        "precio": 459,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"
-    },
-    {
         "id": "LUM-178410597351",
         "nombre": "Elite C\u00e1mara Hub",
         "precio": 378,
@@ -94,5 +86,13 @@
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
+    },
+    {
+        "id": "LUM-178417611157",
+        "nombre": "Neo C\u00e1mara Hub 5",
+        "precio": 200,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"
     }
 ]
