@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178434589982",
-        "nombre": "Lumina Prensa Francesa",
-        "precio": 359,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
-    },
-    {
         "id": "LUM-17843539471",
         "nombre": "Aura Sensor de Cultivo",
         "precio": 245,
@@ -91,6 +83,14 @@
         "id": "LUM-178440415592",
         "nombre": "Zen Proyector 4K 6",
         "precio": 393,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
+    },
+    {
+        "id": "LUM-178440829836",
+        "nombre": "Zen Auriculares Pro",
+        "precio": 337,
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
