@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178445211641",
-        "nombre": "Horizon L\u00e1mpara Orbital",
-        "precio": 112,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
-    },
-    {
         "id": "LUM-17844580103",
         "nombre": "Elite Auriculares Pro",
         "precio": 427,
@@ -91,6 +83,14 @@
         "id": "LUM-178450290371",
         "nombre": "Elite C\u00e1mara Hub",
         "precio": 85,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
+    },
+    {
+        "id": "LUM-178452067156",
+        "nombre": "Neo Proyector 4K",
+        "precio": 353,
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
