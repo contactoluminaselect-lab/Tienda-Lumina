@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178446255150",
-        "nombre": "Zen Difusor Essential",
-        "precio": 428,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
-    },
-    {
         "id": "LUM-178446944435",
         "nombre": "Neo L\u00e1mpara Orbital",
         "precio": 225,
@@ -91,6 +83,14 @@
         "id": "LUM-178453301078",
         "nombre": "Lumina Auriculares Pro 9",
         "precio": 437,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
+    },
+    {
+        "id": "LUM-178454339588",
+        "nombre": "Aura Smartwatch",
+        "precio": 280,
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
