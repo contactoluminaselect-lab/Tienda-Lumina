@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-17844580103",
-        "nombre": "Elite Auriculares Pro",
-        "precio": 427,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
-    },
-    {
         "id": "LUM-178446255150",
         "nombre": "Zen Difusor Essential",
         "precio": 428,
@@ -91,6 +83,14 @@
         "id": "LUM-178452067156",
         "nombre": "Neo Proyector 4K",
         "precio": 353,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
+    },
+    {
+        "id": "LUM-178453301078",
+        "nombre": "Lumina Auriculares Pro 9",
+        "precio": 437,
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
