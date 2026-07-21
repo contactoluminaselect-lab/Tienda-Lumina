@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178456056791",
-        "nombre": "Aura Auriculares Pro",
-        "precio": 182,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
-    },
-    {
         "id": "LUM-178456609531",
         "nombre": "Lumina Maceta WiFi",
         "precio": 339,
@@ -94,5 +86,13 @@
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
+    },
+    {
+        "id": "LUM-178464714826",
+        "nombre": "Zen Proyector 4K 3",
+        "precio": 176,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
     }
 ]
