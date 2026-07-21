@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178449858981",
-        "nombre": "Zen Kit Bot\u00e1nico",
-        "precio": 53,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
-    },
-    {
         "id": "LUM-178450290371",
         "nombre": "Elite C\u00e1mara Hub",
         "precio": 85,
@@ -91,6 +83,14 @@
         "id": "LUM-178458874283",
         "nombre": "Zen Proyector 4K",
         "precio": 269,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"
+    },
+    {
+        "id": "LUM-178459292131",
+        "nombre": "Horizon Proyector 4K",
+        "precio": 255,
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"
