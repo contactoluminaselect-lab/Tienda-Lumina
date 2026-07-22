@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-17846639109",
-        "nombre": "Lumina Silla N\u00f3rdica",
-        "precio": 100,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
-    },
-    {
         "id": "LUM-178466887528",
         "nombre": "Horizon Proyector 4K 4",
         "precio": 333,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
+    },
+    {
+        "id": "LUM-178474898064",
+        "nombre": "Zen Maceta WiFi",
+        "precio": 331,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
     }
 ]
