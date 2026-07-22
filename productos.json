@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178463286350",
-        "nombre": "Zen Sensor de Cultivo",
-        "precio": 362,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
-    },
-    {
         "id": "LUM-178463902463",
         "nombre": "Horizon Sensor de Cultivo",
         "precio": 323,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
+    },
+    {
+        "id": "LUM-178471476945",
+        "nombre": "Neo L\u00e1mpara Orbital",
+        "precio": 208,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
     }
 ]
