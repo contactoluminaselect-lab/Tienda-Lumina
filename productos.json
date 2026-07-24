@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178480841037",
-        "nombre": "Aura Auriculares Pro",
-        "precio": 416,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
-    },
-    {
         "id": "LUM-178481744246",
         "nombre": "Aura Sensor de Cultivo",
         "precio": 208,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
+    },
+    {
+        "id": "LUM-17848916945",
+        "nombre": "Elite Sensor de Cultivo 2",
+        "precio": 107,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
     }
 ]
