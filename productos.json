@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178480113183",
-        "nombre": "Elite Silla N\u00f3rdica",
-        "precio": 303,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
-    },
-    {
         "id": "LUM-178480841037",
         "nombre": "Aura Auriculares Pro",
         "precio": 416,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
+    },
+    {
+        "id": "LUM-178488414232",
+        "nombre": "Horizon L\u00e1mpara Orbital",
+        "precio": 177,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
     }
 ]
