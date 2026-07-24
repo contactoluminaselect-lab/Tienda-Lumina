@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178476905445",
-        "nombre": "Aura L\u00e1mpara Orbital",
-        "precio": 405,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?w=800"
-    },
-    {
         "id": "LUM-178478167993",
         "nombre": "Elite Smartwatch",
         "precio": 460,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
+    },
+    {
+        "id": "LUM-178485209010",
+        "nombre": "Neo Sensor de Cultivo",
+        "precio": 371,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
     }
 ]
