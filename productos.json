@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178483923691",
-        "nombre": "Neo Difusor Essential",
-        "precio": 249,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
-    },
-    {
         "id": "LUM-178484457572",
         "nombre": "Elite Sensor de Cultivo",
         "precio": 483,
@@ -91,6 +83,14 @@
         "id": "LUM-178491840945",
         "nombre": "Aura L\u00e1mpara Orbital",
         "precio": 263,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
+    },
+    {
+        "id": "LUM-178492341717",
+        "nombre": "Aura Difusor Essential",
+        "precio": 240,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
