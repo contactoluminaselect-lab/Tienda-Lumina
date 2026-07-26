@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178501530966",
-        "nombre": "Horizon L\u00e1mpara Orbital",
-        "precio": 440,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
-    },
-    {
         "id": "LUM-178501897116",
         "nombre": "Lumina Auriculares Pro",
         "precio": 132,
@@ -91,6 +83,14 @@
         "id": "LUM-178508771233",
         "nombre": "Aura Prensa Francesa",
         "precio": 434,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
+    },
+    {
+        "id": "LUM-178509365839",
+        "nombre": "Neo Silla N\u00f3rdica",
+        "precio": 73,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
