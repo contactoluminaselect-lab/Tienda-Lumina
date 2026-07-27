@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178508002361",
-        "nombre": "Aura Sensor de Cultivo",
-        "precio": 195,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
-    },
-    {
         "id": "LUM-178508362877",
         "nombre": "Neo Maceta WiFi",
         "precio": 391,
@@ -91,6 +83,14 @@
         "id": "LUM-178516062980",
         "nombre": "Lumina Silla N\u00f3rdica",
         "precio": 419,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
+    },
+    {
+        "id": "LUM-178516972159",
+        "nombre": "Aura Difusor Essential",
+        "precio": 80,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
