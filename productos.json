@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178527998740",
-        "nombre": "Horizon Prensa Francesa",
-        "precio": 417,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
-    },
-    {
         "id": "LUM-178528399933",
         "nombre": "Elite Prensa Francesa",
         "precio": 205,
@@ -91,6 +83,14 @@
         "id": "LUM-178536087943",
         "nombre": "Zen Silla N\u00f3rdica 7",
         "precio": 342,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
+    },
+    {
+        "id": "LUM-178536463215",
+        "nombre": "Lumina L\u00e1mpara Orbital",
+        "precio": 392,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
