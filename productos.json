@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178526467059",
-        "nombre": "Zen L\u00e1mpara Orbital 8",
-        "precio": 47,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
-    },
-    {
         "id": "LUM-17852700247",
         "nombre": "Aura Smartwatch",
         "precio": 459,
@@ -91,6 +83,14 @@
         "id": "LUM-17853469834",
         "nombre": "Horizon Maceta WiFi",
         "precio": 234,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
+    },
+    {
+        "id": "LUM-178535321061",
+        "nombre": "Zen Maceta WiFi 4",
+        "precio": 218,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
