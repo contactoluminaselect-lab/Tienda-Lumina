@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178519602217",
-        "nombre": "Neo Proyector 4K 2",
-        "precio": 133,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"
-    },
-    {
         "id": "LUM-178520858734",
         "nombre": "Zen Prensa Francesa",
         "precio": 109,
@@ -91,6 +83,14 @@
         "id": "LUM-178527998740",
         "nombre": "Horizon Prensa Francesa",
         "precio": 417,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
+    },
+    {
+        "id": "LUM-178528399933",
+        "nombre": "Elite Prensa Francesa",
+        "precio": 205,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
