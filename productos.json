@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178531733419",
-        "nombre": "Zen Maceta WiFi",
-        "precio": 314,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
-    },
-    {
         "id": "LUM-178532572213",
         "nombre": "Zen Silla N\u00f3rdica",
         "precio": 161,
@@ -91,6 +83,14 @@
         "id": "LUM-178539053830",
         "nombre": "Lumina Sensor de Cultivo",
         "precio": 468,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
+    },
+    {
+        "id": "LUM-178540075656",
+        "nombre": "Lumina Kit Bot\u00e1nico",
+        "precio": 309,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
