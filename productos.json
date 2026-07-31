@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178543571139",
-        "nombre": "Aura Difusor Essential",
-        "precio": 364,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
-    },
-    {
         "id": "LUM-178544191578",
         "nombre": "Zen Maceta WiFi",
         "precio": 330,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
+    },
+    {
+        "id": "LUM-178552841729",
+        "nombre": "Zen Proyector 4K",
+        "precio": 191,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"
     }
 ]
