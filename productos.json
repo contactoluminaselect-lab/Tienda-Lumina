@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178559292481",
-        "nombre": "Neo L\u00e1mpara Orbital",
-        "precio": 102,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
-    },
-    {
         "id": "LUM-178559831348",
         "nombre": "Aura Auriculares Pro 7",
         "precio": 281,
@@ -91,6 +83,14 @@
         "id": "LUM-17856601202",
         "nombre": "Horizon Maceta WiFi",
         "precio": 80,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
+    },
+    {
+        "id": "LUM-178566748350",
+        "nombre": "Zen Sensor de Cultivo",
+        "precio": 497,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
