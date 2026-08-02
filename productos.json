@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-17856021801",
-        "nombre": "Aura Silla N\u00f3rdica",
-        "precio": 291,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?w=800"
-    },
-    {
         "id": "LUM-178560612749",
         "nombre": "Neo Auriculares Pro",
         "precio": 479,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
+    },
+    {
+        "id": "LUM-178567939015",
+        "nombre": "Lumina Kit Bot\u00e1nico",
+        "precio": 127,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
     }
 ]
