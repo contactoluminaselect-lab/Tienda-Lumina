@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178577464736",
-        "nombre": "Neo Kit Bot\u00e1nico",
-        "precio": 329,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
-    },
-    {
         "id": "LUM-178578152693",
         "nombre": "Aura C\u00e1mara Hub",
         "precio": 429,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
+    },
+    {
+        "id": "LUM-178586696188",
+        "nombre": "Neo Maceta WiFi",
+        "precio": 52,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
     }
 ]
