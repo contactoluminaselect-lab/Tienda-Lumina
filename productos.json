@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-17859240694",
-        "nombre": "Elite Difusor Essential",
-        "precio": 286,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
-    },
-    {
         "id": "LUM-178593240558",
         "nombre": "Zen Silla N\u00f3rdica",
         "precio": 291,
@@ -91,6 +83,14 @@
         "id": "LUM-178600856222",
         "nombre": "Elite L\u00e1mpara Orbital",
         "precio": 365,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
+    },
+    {
+        "id": "LUM-178601701987",
+        "nombre": "Elite Difusor Essential 3",
+        "precio": 81,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
