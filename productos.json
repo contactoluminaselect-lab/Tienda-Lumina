@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178596586883",
-        "nombre": "Horizon Silla N\u00f3rdica",
-        "precio": 486,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
-    },
-    {
         "id": "LUM-178596974166",
         "nombre": "Elite Difusor Essential 4",
         "precio": 253,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?w=800"
+    },
+    {
+        "id": "LUM-178609069979",
+        "nombre": "Lumina Prensa Francesa",
+        "precio": 434,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
     }
 ]
