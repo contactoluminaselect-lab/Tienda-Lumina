@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178600856222",
-        "nombre": "Elite L\u00e1mpara Orbital",
-        "precio": 365,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
-    },
-    {
         "id": "LUM-178601701987",
         "nombre": "Elite Difusor Essential 3",
         "precio": 81,
@@ -91,6 +83,14 @@
         "id": "LUM-178610561022",
         "nombre": "Horizon Kit Bot\u00e1nico",
         "precio": 391,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
+    },
+    {
+        "id": "LUM-178611105362",
+        "nombre": "Aura Sensor de Cultivo",
+        "precio": 359,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
