@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178594836129",
-        "nombre": "Aura Sensor de Cultivo",
-        "precio": 398,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
-    },
-    {
         "id": "LUM-178595442658",
         "nombre": "Neo Sensor de Cultivo",
         "precio": 174,
@@ -91,6 +83,14 @@
         "id": "LUM-17860619887",
         "nombre": "Neo Maceta WiFi",
         "precio": 395,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
+    },
+    {
+        "id": "LUM-178607307394",
+        "nombre": "Neo Kit Bot\u00e1nico",
+        "precio": 172,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
