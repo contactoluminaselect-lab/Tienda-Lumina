@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178618887872",
-        "nombre": "Aura Difusor Essential",
-        "precio": 470,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
-    },
-    {
         "id": "LUM-178619042563",
         "nombre": "Elite Prensa Francesa",
         "precio": 457,
@@ -91,6 +83,14 @@
         "id": "LUM-178621846535",
         "nombre": "Neo Silla N\u00f3rdica",
         "precio": 428,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
+    },
+    {
+        "id": "LUM-17862214595",
+        "nombre": "Zen Difusor Essential",
+        "precio": 99,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
