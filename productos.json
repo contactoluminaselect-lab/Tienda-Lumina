@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178623019927",
-        "nombre": "Neo Maceta WiFi",
-        "precio": 314,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
-    },
-    {
         "id": "LUM-178623295613",
         "nombre": "Horizon Proyector 4K",
         "precio": 110,
@@ -94,5 +86,13 @@
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
+    },
+    {
+        "id": "LUM-178627694252",
+        "nombre": "Lumina Silla N\u00f3rdica",
+        "precio": 78,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
     }
 ]
