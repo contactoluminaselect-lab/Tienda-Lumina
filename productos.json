@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178635888421",
-        "nombre": "Neo Proyector 4K",
-        "precio": 245,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
-    },
-    {
         "id": "LUM-178636279847",
         "nombre": "Lumina Sensor de Cultivo 5",
         "precio": 469,
@@ -91,6 +83,14 @@
         "id": "LUM-178640295456",
         "nombre": "Zen Kit Bot\u00e1nico",
         "precio": 393,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
+    },
+    {
+        "id": "LUM-17864060782",
+        "nombre": "Aura Sensor de Cultivo",
+        "precio": 50,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
