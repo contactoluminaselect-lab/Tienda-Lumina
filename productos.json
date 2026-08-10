@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178630588023",
-        "nombre": "Aura C\u00e1mara Hub 2",
-        "precio": 123,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
-    },
-    {
         "id": "LUM-178630901328",
         "nombre": "Lumina Maceta WiFi",
         "precio": 359,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
+    },
+    {
+        "id": "LUM-178636279847",
+        "nombre": "Lumina Sensor de Cultivo 5",
+        "precio": 469,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
     }
 ]
