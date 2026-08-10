@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178631507910",
-        "nombre": "Aura Maceta WiFi",
-        "precio": 241,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
-    },
-    {
         "id": "LUM-17863167085",
         "nombre": "Lumina Sensor de Cultivo",
         "precio": 167,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
+    },
+    {
+        "id": "LUM-178637783699",
+        "nombre": "Neo L\u00e1mpara Orbital 4",
+        "precio": 275,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
     }
 ]
