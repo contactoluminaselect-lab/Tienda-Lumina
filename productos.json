@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178642535897",
-        "nombre": "Horizon Prensa Francesa",
-        "precio": 349,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
-    },
-    {
         "id": "LUM-17864285826",
         "nombre": "Aura Prensa Francesa 9",
         "precio": 446,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
+    },
+    {
+        "id": "LUM-178647658882",
+        "nombre": "Lumina Difusor Essential",
+        "precio": 362,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?w=800"
     }
 ]
