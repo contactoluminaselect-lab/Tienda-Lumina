@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178639326593",
-        "nombre": "Zen Smartwatch 8",
-        "precio": 212,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
-    },
-    {
         "id": "LUM-178639708427",
         "nombre": "Aura Prensa Francesa",
         "precio": 197,
@@ -94,5 +86,13 @@
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
+    },
+    {
+        "id": "LUM-178644655651",
+        "nombre": "Horizon Silla N\u00f3rdica",
+        "precio": 334,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
     }
 ]
