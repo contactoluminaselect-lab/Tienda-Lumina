@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178646069180",
-        "nombre": "Neo C\u00e1mara Hub",
-        "precio": 324,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
-    },
-    {
         "id": "LUM-178646482796",
         "nombre": "Elite Maceta WiFi",
         "precio": 151,
@@ -91,6 +83,14 @@
         "id": "LUM-178651186664",
         "nombre": "Aura Difusor Essential",
         "precio": 60,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
+    },
+    {
+        "id": "LUM-178651732112",
+        "nombre": "Horizon L\u00e1mpara Orbital",
+        "precio": 115,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
