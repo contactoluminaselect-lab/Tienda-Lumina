@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178649530873",
-        "nombre": "Elite Maceta WiFi 7",
-        "precio": 85,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
-    },
-    {
         "id": "LUM-178650510327",
         "nombre": "Horizon Sensor de Cultivo",
         "precio": 53,
@@ -91,6 +83,14 @@
         "id": "LUM-178655509981",
         "nombre": "Elite Sensor de Cultivo 5",
         "precio": 440,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
+    },
+    {
+        "id": "LUM-178655836838",
+        "nombre": "Zen Sensor de Cultivo",
+        "precio": 372,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
