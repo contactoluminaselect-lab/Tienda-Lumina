@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178647973670",
-        "nombre": "Zen Kit Bot\u00e1nico",
-        "precio": 266,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
-    },
-    {
         "id": "LUM-178648366854",
         "nombre": "Neo Auriculares Pro",
         "precio": 243,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
+    },
+    {
+        "id": "LUM-178654275750",
+        "nombre": "Zen Auriculares Pro",
+        "precio": 71,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
     }
 ]
