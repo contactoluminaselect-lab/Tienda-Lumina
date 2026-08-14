@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178665231915",
-        "nombre": "Horizon Auriculares Pro",
-        "precio": 188,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
-    },
-    {
         "id": "LUM-178665541177",
         "nombre": "Horizon Maceta WiFi",
         "precio": 469,
@@ -91,6 +83,14 @@
         "id": "LUM-178670885075",
         "nombre": "Aura Prensa Francesa",
         "precio": 407,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
+    },
+    {
+        "id": "LUM-178671534329",
+        "nombre": "Zen Silla N\u00f3rdica",
+        "precio": 436,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
