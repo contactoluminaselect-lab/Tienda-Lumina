@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178681312985",
-        "nombre": "Neo Auriculares Pro",
-        "precio": 417,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
-    },
-    {
         "id": "LUM-17868149753",
         "nombre": "Lumina Maceta WiFi 8",
         "precio": 326,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"
+    },
+    {
+        "id": "LUM-178683650189",
+        "nombre": "Zen Difusor Essential",
+        "precio": 342,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
     }
 ]
