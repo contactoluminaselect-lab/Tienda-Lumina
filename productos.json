@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178675190336",
-        "nombre": "Horizon Silla N\u00f3rdica",
-        "precio": 205,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?w=800"
-    },
-    {
         "id": "LUM-178675827877",
         "nombre": "Aura Smartwatch",
         "precio": 184,
@@ -94,5 +86,13 @@
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
+    },
+    {
+        "id": "LUM-178678711024",
+        "nombre": "Elite Auriculares Pro",
+        "precio": 486,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
     }
 ]
