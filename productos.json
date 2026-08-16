@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178682282262",
-        "nombre": "Horizon Proyector 4K",
-        "precio": 125,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
-    },
-    {
         "id": "LUM-178682578476",
         "nombre": "Horizon Prensa Francesa 5",
         "precio": 334,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
+    },
+    {
+        "id": "LUM-178685604432",
+        "nombre": "Lumina Smartwatch",
+        "precio": 240,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
     }
 ]
