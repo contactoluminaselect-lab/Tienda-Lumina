@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-17868191835",
-        "nombre": "Elite Difusor Essential",
-        "precio": 239,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?w=800"
-    },
-    {
         "id": "LUM-178682064895",
         "nombre": "Neo Maceta WiFi 4",
         "precio": 232,
@@ -91,6 +83,14 @@
         "id": "LUM-178684474215",
         "nombre": "Neo Sensor de Cultivo",
         "precio": 241,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
+    },
+    {
+        "id": "LUM-178684956260",
+        "nombre": "Lumina Sensor de Cultivo",
+        "precio": 290,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
