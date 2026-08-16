@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178687427836",
-        "nombre": "Horizon Proyector 4K",
-        "precio": 95,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
-    },
-    {
         "id": "LUM-178687637830",
         "nombre": "Neo L\u00e1mpara Orbital",
         "precio": 235,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
+    },
+    {
+        "id": "LUM-178689806477",
+        "nombre": "Lumina Difusor Essential",
+        "precio": 53,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
     }
 ]
