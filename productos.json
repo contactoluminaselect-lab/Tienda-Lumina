@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178695043689",
-        "nombre": "Zen Silla N\u00f3rdica",
-        "precio": 483,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
-    },
-    {
         "id": "LUM-178695387090",
         "nombre": "Elite Kit Bot\u00e1nico",
         "precio": 123,
@@ -94,5 +86,13 @@
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
+    },
+    {
+        "id": "LUM-178698224714",
+        "nombre": "Zen Smartwatch",
+        "precio": 300,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"
     }
 ]
