@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178693103767",
-        "nombre": "Lumina L\u00e1mpara Orbital",
-        "precio": 364,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
-    },
-    {
         "id": "LUM-178693595588",
         "nombre": "Aura Smartwatch",
         "precio": 347,
@@ -91,6 +83,14 @@
         "id": "LUM-17869678818",
         "nombre": "Lumina Maceta WiFi",
         "precio": 315,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
+    },
+    {
+        "id": "LUM-178697163572",
+        "nombre": "Elite Sensor de Cultivo",
+        "precio": 58,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
