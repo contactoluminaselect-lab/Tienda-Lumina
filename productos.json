@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178702894896",
-        "nombre": "Lumina Silla N\u00f3rdica",
-        "precio": 220,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
-    },
-    {
         "id": "LUM-178703137246",
         "nombre": "Zen Auriculares Pro",
         "precio": 405,
@@ -91,6 +83,14 @@
         "id": "LUM-178705817681",
         "nombre": "Horizon Sensor de Cultivo",
         "precio": 117,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
+    },
+    {
+        "id": "LUM-17870616402",
+        "nombre": "Zen Sensor de Cultivo",
+        "precio": 430,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
