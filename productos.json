@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178704289418",
-        "nombre": "Neo C\u00e1mara Hub 3",
-        "precio": 314,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
-    },
-    {
         "id": "LUM-178704595678",
         "nombre": "Neo Proyector 4K",
         "precio": 308,
@@ -91,6 +83,14 @@
         "id": "LUM-178707198494",
         "nombre": "Lumina Proyector 4K",
         "precio": 185,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
+    },
+    {
+        "id": "LUM-178707438694",
+        "nombre": "Elite Smartwatch",
+        "precio": 100,
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
