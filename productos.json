@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-17870543575",
-        "nombre": "Lumina Difusor Essential",
-        "precio": 453,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
-    },
-    {
         "id": "LUM-178705817681",
         "nombre": "Horizon Sensor de Cultivo",
         "precio": 117,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
+    },
+    {
+        "id": "LUM-178708672945",
+        "nombre": "Elite Silla N\u00f3rdica",
+        "precio": 352,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
     }
 ]
