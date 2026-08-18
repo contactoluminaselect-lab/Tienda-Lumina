@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178705817681",
-        "nombre": "Horizon Sensor de Cultivo",
-        "precio": 117,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
-    },
-    {
         "id": "LUM-17870616402",
         "nombre": "Zen Sensor de Cultivo",
         "precio": 430,
@@ -91,6 +83,14 @@
         "id": "LUM-178708672945",
         "nombre": "Elite Silla N\u00f3rdica",
         "precio": 352,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
+    },
+    {
+        "id": "LUM-178708878265",
+        "nombre": "Elite Silla N\u00f3rdica 3",
+        "precio": 465,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
