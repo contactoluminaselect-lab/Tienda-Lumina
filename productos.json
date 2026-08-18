@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178699518850",
-        "nombre": "Zen Sensor de Cultivo",
-        "precio": 236,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
-    },
-    {
         "id": "LUM-178699667163",
         "nombre": "Elite Prensa Francesa",
         "precio": 231,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
+    },
+    {
+        "id": "LUM-178702894896",
+        "nombre": "Lumina Silla N\u00f3rdica",
+        "precio": 220,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
     }
 ]
