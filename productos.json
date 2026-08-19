@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178708878265",
-        "nombre": "Elite Silla N\u00f3rdica 3",
-        "precio": 465,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
-    },
-    {
         "id": "LUM-178709018434",
         "nombre": "Zen Prensa Francesa",
         "precio": 256,
@@ -91,6 +83,14 @@
         "id": "LUM-178711932320",
         "nombre": "Neo Kit Bot\u00e1nico",
         "precio": 320,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
+    },
+    {
+        "id": "LUM-178712341645",
+        "nombre": "Lumina Sensor de Cultivo 2",
+        "precio": 288,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
