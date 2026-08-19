@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178711221769",
-        "nombre": "Aura Silla N\u00f3rdica",
-        "precio": 87,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
-    },
-    {
         "id": "LUM-178711536451",
         "nombre": "Elite Auriculares Pro",
         "precio": 398,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
+    },
+    {
+        "id": "LUM-178714463245",
+        "nombre": "Zen C\u00e1mara Hub",
+        "precio": 52,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
     }
 ]
