@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178710863327",
-        "nombre": "Aura Proyector 4K",
-        "precio": 379,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"
-    },
-    {
         "id": "LUM-178711221769",
         "nombre": "Aura Silla N\u00f3rdica",
         "precio": 87,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?w=800"
+    },
+    {
+        "id": "LUM-178714075754",
+        "nombre": "Horizon Auriculares Pro",
+        "precio": 179,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
     }
 ]
