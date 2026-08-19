@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178714463245",
-        "nombre": "Zen C\u00e1mara Hub",
-        "precio": 52,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
-    },
-    {
         "id": "LUM-178714811098",
         "nombre": "Horizon Kit Bot\u00e1nico",
         "precio": 481,
@@ -91,6 +83,14 @@
         "id": "LUM-17871718658",
         "nombre": "Horizon Maceta WiFi",
         "precio": 274,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
+    },
+    {
+        "id": "LUM-178717338931",
+        "nombre": "Horizon Kit Bot\u00e1nico 6",
+        "precio": 265,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
