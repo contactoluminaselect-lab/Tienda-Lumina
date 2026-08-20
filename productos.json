@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178722647311",
-        "nombre": "Neo C\u00e1mara Hub",
-        "precio": 164,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
-    },
-    {
         "id": "LUM-178723085983",
         "nombre": "Neo Auriculares Pro",
         "precio": 142,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?w=800"
+    },
+    {
+        "id": "LUM-17872625079",
+        "nombre": "Lumina Smartwatch",
+        "precio": 320,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
     }
 ]
