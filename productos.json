@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178723085983",
-        "nombre": "Neo Auriculares Pro",
-        "precio": 142,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"
-    },
-    {
         "id": "LUM-17872346507",
         "nombre": "Lumina Kit Bot\u00e1nico",
         "precio": 60,
@@ -91,6 +83,14 @@
         "id": "LUM-17872625079",
         "nombre": "Lumina Smartwatch",
         "precio": 320,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
+    },
+    {
+        "id": "LUM-178726524654",
+        "nombre": "Lumina Smartwatch 3",
+        "precio": 243,
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
