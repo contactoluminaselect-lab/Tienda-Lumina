@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-17872625079",
-        "nombre": "Lumina Smartwatch",
-        "precio": 320,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
-    },
-    {
         "id": "LUM-178726524654",
         "nombre": "Lumina Smartwatch 3",
         "precio": 243,
@@ -91,6 +83,14 @@
         "id": "LUM-178730214674",
         "nombre": "Aura Difusor Essential",
         "precio": 97,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?w=800"
+    },
+    {
+        "id": "LUM-178730540224",
+        "nombre": "Elite Prensa Francesa",
+        "precio": 59,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?w=800"
