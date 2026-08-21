@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178726687836",
-        "nombre": "Neo L\u00e1mpara Orbital",
-        "precio": 110,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
-    },
-    {
         "id": "LUM-178726949694",
         "nombre": "Neo Prensa Francesa",
         "precio": 218,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
+    },
+    {
+        "id": "LUM-178731013889",
+        "nombre": "Lumina C\u00e1mara Hub",
+        "precio": 157,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
     }
 ]
