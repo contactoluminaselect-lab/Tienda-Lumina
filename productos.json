@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178739626697",
-        "nombre": "Neo Kit Bot\u00e1nico",
-        "precio": 207,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
-    },
-    {
         "id": "LUM-17873981444",
         "nombre": "Horizon Kit Bot\u00e1nico 6",
         "precio": 328,
@@ -91,6 +83,14 @@
         "id": "LUM-178741789543",
         "nombre": "Horizon Proyector 4K",
         "precio": 380,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
+    },
+    {
+        "id": "LUM-17874197802",
+        "nombre": "Elite Proyector 4K",
+        "precio": 291,
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
