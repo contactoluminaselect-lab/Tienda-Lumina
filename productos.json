@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178733536471",
-        "nombre": "Aura Maceta WiFi",
-        "precio": 230,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
-    },
-    {
         "id": "LUM-17873389288",
         "nombre": "Lumina Silla N\u00f3rdica",
         "precio": 284,
@@ -91,6 +83,14 @@
         "id": "LUM-178736308014",
         "nombre": "Aura Maceta WiFi 6",
         "precio": 461,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
+    },
+    {
+        "id": "LUM-178736759668",
+        "nombre": "Elite Kit Bot\u00e1nico",
+        "precio": 474,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
