@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178735521575",
-        "nombre": "Lumina Silla N\u00f3rdica 4",
-        "precio": 369,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
-    },
-    {
         "id": "LUM-178735667884",
         "nombre": "Neo Smartwatch",
         "precio": 241,
@@ -91,6 +83,14 @@
         "id": "LUM-178738814724",
         "nombre": "Horizon Kit Bot\u00e1nico",
         "precio": 182,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
+    },
+    {
+        "id": "LUM-178739118219",
+        "nombre": "Zen Maceta WiFi",
+        "precio": 394,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
