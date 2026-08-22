@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178734592989",
-        "nombre": "Lumina Smartwatch 6",
-        "precio": 283,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
-    },
-    {
         "id": "LUM-178734800794",
         "nombre": "Neo Auriculares Pro",
         "precio": 251,
@@ -91,6 +83,14 @@
         "id": "LUM-178737526992",
         "nombre": "Aura L\u00e1mpara Orbital",
         "precio": 387,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
+    },
+    {
+        "id": "LUM-178737764468",
+        "nombre": "Aura L\u00e1mpara Orbital 3",
+        "precio": 457,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
