@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178743576363",
-        "nombre": "Zen Auriculares Pro",
-        "precio": 230,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
-    },
-    {
         "id": "LUM-178743780247",
         "nombre": "Zen Maceta WiFi",
         "precio": 45,
@@ -91,6 +83,14 @@
         "id": "LUM-178746879824",
         "nombre": "Zen Proyector 4K 8",
         "precio": 95,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
+    },
+    {
+        "id": "LUM-178747147214",
+        "nombre": "Zen Proyector 4K 7",
+        "precio": 389,
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
