@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178742847714",
-        "nombre": "Aura Sensor de Cultivo",
-        "precio": 373,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
-    },
-    {
         "id": "LUM-178743059023",
         "nombre": "Aura Maceta WiFi",
         "precio": 251,
@@ -91,6 +83,14 @@
         "id": "LUM-178745794627",
         "nombre": "Lumina Auriculares Pro",
         "precio": 469,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
+    },
+    {
+        "id": "LUM-178746095910",
+        "nombre": "Aura C\u00e1mara Hub",
+        "precio": 488,
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
