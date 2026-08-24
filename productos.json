@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178751701714",
-        "nombre": "Elite Auriculares Pro",
-        "precio": 310,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
-    },
-    {
         "id": "LUM-178751864795",
         "nombre": "Aura Proyector 4K 8",
         "precio": 218,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
+    },
+    {
+        "id": "LUM-17875510406",
+        "nombre": "Elite Silla N\u00f3rdica",
+        "precio": 123,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?w=800"
     }
 ]
