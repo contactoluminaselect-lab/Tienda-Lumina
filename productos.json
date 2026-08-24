@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178750772564",
-        "nombre": "Lumina Difusor Essential",
-        "precio": 447,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
-    },
-    {
         "id": "LUM-178751032295",
         "nombre": "Lumina L\u00e1mpara Orbital",
         "precio": 315,
@@ -94,5 +86,13 @@
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
+    },
+    {
+        "id": "LUM-178753617917",
+        "nombre": "Lumina L\u00e1mpara Orbital 6",
+        "precio": 374,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
     }
 ]
