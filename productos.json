@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-17875409963",
-        "nombre": "Horizon L\u00e1mpara Orbital",
-        "precio": 91,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
-    },
-    {
         "id": "LUM-178754464151",
         "nombre": "Aura Maceta WiFi",
         "precio": 215,
@@ -91,6 +83,14 @@
         "id": "LUM-178757789047",
         "nombre": "Zen Auriculares Pro",
         "precio": 423,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
+    },
+    {
+        "id": "LUM-178758145750",
+        "nombre": "Zen C\u00e1mara Hub",
+        "precio": 324,
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
