@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178754795180",
-        "nombre": "Horizon C\u00e1mara Hub",
-        "precio": 147,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
-    },
-    {
         "id": "LUM-17875510406",
         "nombre": "Elite Silla N\u00f3rdica",
         "precio": 123,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
+    },
+    {
+        "id": "LUM-178758810053",
+        "nombre": "Aura C\u00e1mara Hub",
+        "precio": 164,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
     }
 ]
