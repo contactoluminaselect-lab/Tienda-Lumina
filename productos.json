@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178765854059",
-        "nombre": "Horizon C\u00e1mara Hub",
-        "precio": 486,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
-    },
-    {
         "id": "LUM-178766271614",
         "nombre": "Zen L\u00e1mpara Orbital",
         "precio": 224,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?w=800"
+    },
+    {
+        "id": "LUM-178769448235",
+        "nombre": "Elite Maceta WiFi",
+        "precio": 388,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
     }
 ]
