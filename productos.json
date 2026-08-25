@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178759318139",
-        "nombre": "Elite C\u00e1mara Hub",
-        "precio": 369,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
-    },
-    {
         "id": "LUM-178759519818",
         "nombre": "Neo C\u00e1mara Hub",
         "precio": 431,
@@ -91,6 +83,14 @@
         "id": "LUM-178762230038",
         "nombre": "Neo Maceta WiFi 8",
         "precio": 230,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
+    },
+    {
+        "id": "LUM-178762709611",
+        "nombre": "Elite Maceta WiFi",
+        "precio": 324,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
