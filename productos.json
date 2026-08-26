@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178769169921",
-        "nombre": "Aura Prensa Francesa",
-        "precio": 103,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?w=800"
-    },
-    {
         "id": "LUM-178769448235",
         "nombre": "Elite Maceta WiFi",
         "precio": 388,
@@ -94,5 +86,13 @@
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
+    },
+    {
+        "id": "LUM-178773431844",
+        "nombre": "Neo Smartwatch",
+        "precio": 311,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
     }
 ]
