@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178789016491",
-        "nombre": "Neo Difusor Essential",
-        "precio": 480,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
-    },
-    {
         "id": "LUM-178793540474",
         "nombre": "Lumina Smartwatch",
         "precio": 435,
@@ -91,6 +83,14 @@
         "id": "LUM-178810848517",
         "nombre": "Lumina Maceta WiFi 2",
         "precio": 97,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
+    },
+    {
+        "id": "LUM-178811893964",
+        "nombre": "Zen Maceta WiFi",
+        "precio": 129,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
