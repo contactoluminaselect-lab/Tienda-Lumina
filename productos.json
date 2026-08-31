@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178796491865",
-        "nombre": "Aura Auriculares Pro",
-        "precio": 247,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
-    },
-    {
         "id": "LUM-178798961823",
         "nombre": "Lumina Maceta WiFi",
         "precio": 495,
@@ -94,5 +86,13 @@
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
+    },
+    {
+        "id": "LUM-178813740384",
+        "nombre": "Elite Difusor Essential",
+        "precio": 382,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
     }
 ]
