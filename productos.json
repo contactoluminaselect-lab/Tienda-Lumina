@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178837742641",
-        "nombre": "Horizon Sensor de Cultivo",
-        "precio": 162,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
-    },
-    {
         "id": "LUM-178838632393",
         "nombre": "Horizon Maceta WiFi",
         "precio": 498,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?w=800"
+    },
+    {
+        "id": "LUM-178853433778",
+        "nombre": "Horizon Maceta WiFi 4",
+        "precio": 341,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
     }
 ]
