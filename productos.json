@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178845753943",
-        "nombre": "Lumina Sensor de Cultivo",
-        "precio": 174,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
-    },
-    {
         "id": "LUM-178846872027",
         "nombre": "Elite Proyector 4K",
         "precio": 106,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
+    },
+    {
+        "id": "LUM-178860382887",
+        "nombre": "Zen Smartwatch",
+        "precio": 424,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
     }
 ]
