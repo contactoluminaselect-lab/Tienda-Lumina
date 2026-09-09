@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178878517816",
-        "nombre": "Neo Difusor Essential",
-        "precio": 444,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
-    },
-    {
         "id": "LUM-178880469175",
         "nombre": "Lumina Silla N\u00f3rdica",
         "precio": 215,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?w=800"
+    },
+    {
+        "id": "LUM-178895364360",
+        "nombre": "Lumina Sensor de Cultivo",
+        "precio": 226,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
     }
 ]
