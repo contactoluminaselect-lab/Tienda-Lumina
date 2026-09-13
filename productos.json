@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-17891339516",
-        "nombre": "Elite Maceta WiFi",
-        "precio": 418,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
-    },
-    {
         "id": "LUM-178914699497",
         "nombre": "Elite Kit Bot\u00e1nico",
         "precio": 358,
@@ -94,5 +86,13 @@
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
+    },
+    {
+        "id": "LUM-178926268751",
+        "nombre": "Neo Sensor de Cultivo",
+        "precio": 423,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
     }
 ]
