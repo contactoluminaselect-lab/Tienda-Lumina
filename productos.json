@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178939529971",
-        "nombre": "Elite Prensa Francesa",
-        "precio": 234,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
-    },
-    {
         "id": "LUM-178941412272",
         "nombre": "Zen Auriculares Pro 8",
         "precio": 453,
@@ -91,6 +83,14 @@
         "id": "LUM-178955936075",
         "nombre": "Aura Maceta WiFi",
         "precio": 167,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
+    },
+    {
+        "id": "LUM-17895766598",
+        "nombre": "Aura Kit Bot\u00e1nico",
+        "precio": 62,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
