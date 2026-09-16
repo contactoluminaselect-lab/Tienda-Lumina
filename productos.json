@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178941412272",
-        "nombre": "Zen Auriculares Pro 8",
-        "precio": 453,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
-    },
-    {
         "id": "LUM-178942585980",
         "nombre": "Elite Prensa Francesa 9",
         "precio": 296,
@@ -94,5 +86,13 @@
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
+    },
+    {
+        "id": "LUM-17895877436",
+        "nombre": "Neo Smartwatch",
+        "precio": 472,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
     }
 ]
