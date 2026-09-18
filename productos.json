@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178959894220",
-        "nombre": "Neo Proyector 4K",
-        "precio": 282,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
-    },
-    {
         "id": "LUM-178960767883",
         "nombre": "Neo Difusor Essential",
         "precio": 382,
@@ -91,6 +83,14 @@
         "id": "LUM-178975640883",
         "nombre": "Horizon Maceta WiFi",
         "precio": 64,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
+    },
+    {
+        "id": "LUM-178976609442",
+        "nombre": "Neo Sensor de Cultivo 4",
+        "precio": 159,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
