@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-17895766598",
-        "nombre": "Aura Kit Bot\u00e1nico",
-        "precio": 62,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
-    },
-    {
         "id": "LUM-17895877436",
         "nombre": "Neo Smartwatch",
         "precio": 472,
@@ -91,6 +83,14 @@
         "id": "LUM-178973088123",
         "nombre": "Aura L\u00e1mpara Orbital",
         "precio": 183,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
+    },
+    {
+        "id": "LUM-178974410171",
+        "nombre": "Horizon Prensa Francesa",
+        "precio": 371,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
