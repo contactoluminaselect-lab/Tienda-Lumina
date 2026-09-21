@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-178985696078",
-        "nombre": "Lumina Maceta WiFi",
-        "precio": 186,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
-    },
-    {
         "id": "LUM-178986378525",
         "nombre": "Aura C\u00e1mara Hub",
         "precio": 146,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"
+    },
+    {
+        "id": "LUM-179002489090",
+        "nombre": "Elite Difusor Essential",
+        "precio": 252,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
     }
 ]
