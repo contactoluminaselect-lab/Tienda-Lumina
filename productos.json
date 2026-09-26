@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-179026531664",
-        "nombre": "Elite Proyector 4K 5",
-        "precio": 179,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"
-    },
-    {
         "id": "LUM-179027971227",
         "nombre": "Zen Kit Bot\u00e1nico",
         "precio": 59,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
+    },
+    {
+        "id": "LUM-17904411179",
+        "nombre": "Elite Maceta WiFi",
+        "precio": 259,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
     }
 ]
