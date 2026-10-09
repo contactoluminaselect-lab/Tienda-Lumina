@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-179129686753",
-        "nombre": "Horizon Prensa Francesa",
-        "precio": 48,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
-    },
-    {
         "id": "LUM-179131615697",
         "nombre": "Elite Sensor de Cultivo",
         "precio": 238,
@@ -91,6 +83,14 @@
         "id": "LUM-179151321423",
         "nombre": "Zen Smartwatch",
         "precio": 375,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
+    },
+    {
+        "id": "LUM-17915386339",
+        "nombre": "Zen C\u00e1mara Hub",
+        "precio": 434,
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
