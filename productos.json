@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-179137437334",
-        "nombre": "Horizon Sensor de Cultivo 9",
-        "precio": 462,
-        "categoria": "Jardiner\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
-    },
-    {
         "id": "LUM-179139911144",
         "nombre": "Neo Auriculares Pro",
         "precio": 326,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
+    },
+    {
+        "id": "LUM-179161662761",
+        "nombre": "Aura Maceta WiFi",
+        "precio": 394,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
     }
 ]
