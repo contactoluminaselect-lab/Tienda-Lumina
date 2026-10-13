@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-179165661153",
-        "nombre": "Elite C\u00e1mara Hub",
-        "precio": 101,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
-    },
-    {
         "id": "LUM-179166955760",
         "nombre": "Neo Smartwatch",
         "precio": 237,
@@ -91,6 +83,14 @@
         "id": "LUM-179187993268",
         "nombre": "Elite Difusor Essential",
         "precio": 259,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
+    },
+    {
+        "id": "LUM-179190877263",
+        "nombre": "Horizon Prensa Francesa",
+        "precio": 361,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
