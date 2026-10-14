@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-179174428397",
-        "nombre": "Aura Auriculares Pro",
-        "precio": 127,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"
-    },
-    {
         "id": "LUM-179175869481",
         "nombre": "Neo Sensor de Cultivo",
         "precio": 209,
@@ -91,6 +83,14 @@
         "id": "LUM-179197415662",
         "nombre": "Zen Silla N\u00f3rdica",
         "precio": 440,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
+    },
+    {
+        "id": "LUM-179199174987",
+        "nombre": "Lumina L\u00e1mpara Orbital",
+        "precio": 418,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
