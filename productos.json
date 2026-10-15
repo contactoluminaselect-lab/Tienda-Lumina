@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-179185496558",
-        "nombre": "Zen Smartwatch",
-        "precio": 83,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
-    },
-    {
         "id": "LUM-179187993268",
         "nombre": "Elite Difusor Essential",
         "precio": 259,
@@ -91,6 +83,14 @@
         "id": "LUM-179204558947",
         "nombre": "Aura Maceta WiFi 3",
         "precio": 135,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
+    },
+    {
+        "id": "LUM-179206602270",
+        "nombre": "Neo Sensor de Cultivo",
+        "precio": 410,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"
