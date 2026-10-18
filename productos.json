@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-17921680634",
-        "nombre": "Horizon Silla N\u00f3rdica",
-        "precio": 180,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
-    },
-    {
         "id": "LUM-179217970684",
         "nombre": "Horizon C\u00e1mara Hub 9",
         "precio": 403,
@@ -94,5 +86,13 @@
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
+    },
+    {
+        "id": "LUM-17923053075",
+        "nombre": "Horizon Proyector 4K 4",
+        "precio": 226,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
     }
 ]
