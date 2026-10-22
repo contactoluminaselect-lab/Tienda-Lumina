@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-179248905411",
-        "nombre": "Elite L\u00e1mpara Orbital",
-        "precio": 67,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
-    },
-    {
         "id": "LUM-179250656536",
         "nombre": "Aura Maceta WiFi",
         "precio": 381,
@@ -91,6 +83,14 @@
         "id": "LUM-17926538378",
         "nombre": "Neo Sensor de Cultivo",
         "precio": 147,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
+    },
+    {
+        "id": "LUM-179267468499",
+        "nombre": "Neo Kit Bot\u00e1nico",
+        "precio": 93,
         "categoria": "Jardiner\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800"
