@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-179258243566",
-        "nombre": "Elite L\u00e1mpara Orbital 5",
-        "precio": 379,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
-    },
-    {
         "id": "LUM-179259875221",
         "nombre": "Aura Prensa Francesa",
         "precio": 88,
@@ -91,6 +83,14 @@
         "id": "LUM-17927514085",
         "nombre": "Neo Difusor Essential",
         "precio": 226,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
+    },
+    {
+        "id": "LUM-179276925650",
+        "nombre": "Elite Prensa Francesa",
+        "precio": 324,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1544190153-060cb6277f67?w=800"
