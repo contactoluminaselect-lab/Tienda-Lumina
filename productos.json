@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-17929776552",
-        "nombre": "Lumina Smartwatch",
-        "precio": 326,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800"
-    },
-    {
         "id": "LUM-17929978463",
         "nombre": "Zen Kit Bot\u00e1nico",
         "precio": 207,
@@ -91,6 +83,14 @@
         "id": "LUM-179318749333",
         "nombre": "Elite Auriculares Pro",
         "precio": 307,
+        "categoria": "Tecnolog\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
+    },
+    {
+        "id": "LUM-179320825779",
+        "nombre": "Aura Proyector 4K",
+        "precio": 294,
         "categoria": "Tecnolog\u00eda",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
