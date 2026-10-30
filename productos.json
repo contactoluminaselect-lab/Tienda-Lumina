@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-179316528741",
-        "nombre": "Zen L\u00e1mpara Orbital",
-        "precio": 311,
-        "categoria": "Hogar",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
-    },
-    {
         "id": "LUM-179318749333",
         "nombre": "Elite Auriculares Pro",
         "precio": 307,
@@ -94,5 +86,13 @@
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800"
+    },
+    {
+        "id": "LUM-179340083632",
+        "nombre": "Elite Maceta WiFi",
+        "precio": 479,
+        "categoria": "Jardiner\u00eda",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1617576621334-4291ef387ae4?w=800"
     }
 ]
