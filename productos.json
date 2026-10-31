@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-179323802583",
-        "nombre": "Elite Proyector 4K",
-        "precio": 91,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
-    },
-    {
         "id": "LUM-179326188324",
         "nombre": "Neo Proyector 4K",
         "precio": 491,
@@ -91,6 +83,14 @@
         "id": "LUM-17934578735",
         "nombre": "Lumina Prensa Francesa",
         "precio": 498,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
+    },
+    {
+        "id": "LUM-179347390142",
+        "nombre": "Aura L\u00e1mpara Orbital",
+        "precio": 263,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
