@@ -1,13 +1,5 @@
 [
     {
-        "id": "LUM-179328713384",
-        "nombre": "Horizon Proyector 4K",
-        "precio": 385,
-        "categoria": "Tecnolog\u00eda",
-        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
-        "imagen": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800"
-    },
-    {
         "id": "LUM-179330536716",
         "nombre": "Neo L\u00e1mpara Orbital",
         "precio": 71,
@@ -91,6 +83,14 @@
         "id": "LUM-17934861384",
         "nombre": "Lumina Silla N\u00f3rdica",
         "precio": 226,
+        "categoria": "Hogar",
+        "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
+        "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
+    },
+    {
+        "id": "LUM-179349647714",
+        "nombre": "Horizon Prensa Francesa",
+        "precio": 279,
         "categoria": "Hogar",
         "descripcion": "Selecci\u00f3n de alta gama curada por Lumina Select para elevar su estilo de vida.",
         "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800"
